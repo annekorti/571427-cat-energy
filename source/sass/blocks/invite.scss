@@ -1,0 +1,21 @@
+.invite {
+  text-align: left;
+  display: flex;
+  background: #ffffff;
+}
+
+.invite__text {
+  width: 130px;
+  font-size: 16px;
+  line-height: 20px;
+  margin-left: 20px;
+}
+
+.invite__address {
+  width: 140px;
+  font-family: "Arial";
+  font-size: 14px;
+  line-height: 20px;
+  color: #444444;
+  font-weight: normal;
+}

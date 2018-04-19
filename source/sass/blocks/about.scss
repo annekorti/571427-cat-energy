@@ -1,0 +1,59 @@
+.about__title {
+  font-size: 36px;
+  line-height: 60px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.about__description {
+  display: flex;
+  margin-bottom: 20px;
+  width: 276px;
+  height: 60px;
+  margin-left: 20px;
+}
+
+.about__image {
+  width: 60px;
+  height: 60px;
+  background-color: #68b738;
+}
+
+.about__text {
+  font-family: "Arial";
+  font-size: 14px;
+  line-height: 18px;
+  color: #444444;
+  width: 200px;
+  margin: 0;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.about__image--substance {
+  background-image: url("../../img/advantage-leaf@1x.png");
+  background-size: 50px 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.about__image--cook {
+  background-image: url("../../img/advantage-dining@1x.png");
+  background-size: 50px 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.about__image--use {
+  background-image: url("../../img/advantage-powder@1x.png");
+  background-size: 50px 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.about__image--time {
+  background-image: url("../../img/advantage-clock@1x.png");
+  background-size: 50px 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+}

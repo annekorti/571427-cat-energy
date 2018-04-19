@@ -1,0 +1,66 @@
+.form__title {
+  font-size: 36px;
+  line-height: 60px;
+  margin-left: 20px;
+  text-align: left;
+}
+
+.form__text {
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  margin-left: 20px;
+  text-align: left;
+  font-weight: normal;
+}
+
+.form__list {
+  list-style: none;
+  text-align: left;
+  padding: 0;
+  margin-left: 20px;
+}
+
+.form__item {
+  color: #222222;
+}
+
+form label {
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 18px;
+  color: #222222;
+}
+
+form input {
+  padding-left: 15px;
+  text-transform: uppercase;
+  border: 1px solid #e6e6e6;
+  height: 43px;
+}
+
+.form__subtitle {
+  width: 200px;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.form__comment {
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 18px;
+  color: #444444;
+  width: 278px;
+  height: 148px;
+  border: 1px solid #e6e6e6;
+  text-align: center;
+}
+
+.form__footnote {
+  font-family: "Arial";
+  font-size: 14px;
+  line-height: 16px;
+  color: #444444;
+}

@@ -21,7 +21,7 @@
 }
 
 .extra-product__text {
-  font-family: "Arial";
+  font-family: "Arial", "Tahoma", sans-serif;
   font-size: 14px;
   line-height: 14px;
 }
@@ -32,7 +32,7 @@
 //}
 
 .extra-product__bonus {
-  background-image: url(../../img/gift-photo-mobile@1x.jpg);
+  background-image: url("../../img/gift-photo-mobile@1x.jpg");
   background-size: 280px 289px;
   background-repeat: no-repeat;
   background-position: center;
@@ -40,7 +40,7 @@
 }
 
 .extra-product__gift {
-  font-family: "Arial";
+  font-family: "Arial", "Tahoma", sans-serif;
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;

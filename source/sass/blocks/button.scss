@@ -1,0 +1,22 @@
+.button {
+  border: none;
+  background-color: #68b738;
+  color: #ffffff;
+  width: 280px;
+  height: 40px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 20px;
+
+  &:hover,
+  &:focus {
+    background-color: #5eaa2f;
+  }
+
+  &:active {
+    color: #8fc46e;
+    background-color: #5eaa2f;
+  }
+}

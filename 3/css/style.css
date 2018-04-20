@@ -63,6 +63,17 @@ input[type="radio"].visually-hidden {
 .main-navigation__item a {
   color: #111111; }
 
+.main-navigation__link:hover,
+.main-navigation__link:focus {
+  color: #707070; }
+  .main-navigation__link:hover:active,
+  .main-navigation__link:focus:active {
+    color: #b7b7b7; }
+
+.main-navigation__item--active {
+  color: #111111;
+  border-bottom: 2px solid #68b738; }
+
 .choice__block {
   background-color: #f2f2f2;
   width: 280px;
@@ -118,7 +129,15 @@ input[type="radio"].visually-hidden {
   width: 280px;
   height: 40px;
   text-transform: uppercase;
-  cursor: pointer; }
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 20px; }
+  .button:hover, .button:focus {
+    background-color: #5eaa2f; }
+  .button:active {
+    color: #8fc46e;
+    background-color: #5eaa2f; }
 
 .banner {
   padding: 0;
@@ -371,6 +390,11 @@ input[type="radio"].visually-hidden {
 .product__button-more {
   background-color: #f2f2f2;
   color: #444444; }
+  .product__button-more:hover, .product__button-more:focus {
+    background-color: #ebebeb; }
+  .product__button-more:active {
+    background-color: #ebebeb;
+    color: #b9b9b9; }
 
 .extra-product {
   text-align: left; }
@@ -434,17 +458,19 @@ input[type="radio"].visually-hidden {
 .form__item {
   color: #222222; }
 
-form label {
+.form__item label {
   text-transform: uppercase;
   font-size: 16px;
   line-height: 18px;
-  color: #222222; }
+  color: #222222;
+  font-family: inherit; }
 
-form input {
+.form__item input {
   padding-left: 15px;
   text-transform: uppercase;
   border: 1px solid #e6e6e6;
-  height: 43px; }
+  height: 43px;
+  font-family: inherit; }
 
 .form__subtitle {
   width: 200px;
@@ -461,7 +487,8 @@ form input {
   width: 278px;
   height: 148px;
   border: 1px solid #e6e6e6;
-  text-align: center; }
+  text-align: center;
+  font-family: inherit; }
 
 .form__footnote {
   font-family: "Arial", "Tahoma", sans-serif;

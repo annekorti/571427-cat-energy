@@ -20,3 +20,17 @@
 .main-navigation__item a {
   color: #111111;
 }
+
+.main-navigation__link:hover,
+.main-navigation__link:focus {
+  color: #707070;
+
+  &:active {
+    color: #b7b7b7;
+  }
+}
+
+.main-navigation__item--active {
+  color: #111111;
+  border-bottom: 2px solid #68b738;
+}

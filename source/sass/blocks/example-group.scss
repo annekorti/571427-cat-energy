@@ -49,3 +49,90 @@
   font-size: 14px;
   line-height: 20px;
 }
+
+@media (min-width: $tablet-width) {
+  .example__title {
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  .example__description {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .example__cover {
+    display: flex;
+  }
+
+  .example__cost {
+    margin-left: auto;
+    margin-right: 30px;
+  }
+
+  .example__block {
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .example-group {
+    background: none;
+  }
+
+  .example__title {
+    margin-left: 110px;
+  }
+
+  .example__wrapper {
+    width: 610px;
+  }
+
+  .example__wrapping {
+    width: 720px;
+    padding-left: 110px;
+  }
+
+  .example__subtitle {
+    font-size: 30px;
+    line-height: 37px;
+  }
+
+  .example__envelope {
+    width: 1440px;
+    display: flex;
+    background-color: #f2f2f2;
+  }
+
+  .example__description {
+    width: 436px;
+  }
+
+  .example__box {
+    margin-left: 0;
+  }
+
+  .example__cover {
+    display: flex;
+    margin-bottom: 60px;
+    flex-direction: column;
+  }
+
+  .example__text {
+    font-size: 14px;
+    line-height: 14px;
+  }
+
+  .example__cost {
+    font-size: 20px;
+    line-height: 20px;
+    width: auto;
+    text-align: left;
+    margin: 0;
+    margin-top: 60px;
+  }
+
+  .example__slider {
+    width: 650px;
+  }
+}

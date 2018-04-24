@@ -1,3 +1,35 @@
 .page-header {
-  outline: 1px solid #333333;
+  //outline: 1px solid #333333;
+  //background: #333333;
+}
+
+@media (min-width: $tablet-width) {
+  .page-header {
+    //min-width: $tablet-width;
+    display: flex;
+    justify-content: flex-start;
+    min-height: 100px;
+  }
+
+  .page-header__logo {
+    align-self: center;
+  }
+
+  .page-header__logo-image {
+    width: 173px;
+    height: 58px;
+  }
+
+  .main-navigation__list {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .page-header {
+    justify-content: space-between;
+    margin: 0 110px;
+  }
 }

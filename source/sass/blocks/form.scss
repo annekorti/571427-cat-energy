@@ -67,3 +67,137 @@
   line-height: 16px;
   color: #444444;
 }
+
+@media (min-width: $tablet-width) {
+  .form__title {
+    font-size: 60px;
+    line-height: 60px;
+    margin-left: 32px;
+  }
+
+  .form__text {
+    font-size: 20px;
+    line-height: 30px;
+    width: 330px;
+    margin-left: 71px;
+  }
+
+  .form__block {
+    margin-left: 71px;
+  }
+
+  .form__block:nth-child(1) {
+    margin-left: 0;
+  }
+
+  .form__block:nth-child(1) .form__list {
+    margin-left: 71px;
+  }
+
+  .form__block:nth-child(2) {
+    border: 1px solid #e6e6e6;
+    width: 628px;
+    height: 194px;
+  }
+
+  .form label,
+  .form input {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .form__subtitle {
+    font-size: 36px;
+    line-height: 36px;
+    margin-left: 0;
+    width: 576px;
+  }
+
+  .form__comment {
+    width: 627px;
+    height: 170px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
+    padding-left: 18px;
+    margin-left: -45px;
+  }
+
+  .form__block:nth-child(5) .form__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .form__block:nth-child(5) .form__item {
+    width: 288px;
+  }
+
+  .form__list {
+    margin-left: 0;
+  }
+
+  .form__wrap {
+    display: flex;
+  }
+
+  .form__button {
+    margin-left: 71px;
+  }
+
+  .form__footnote {
+    font-size: 16px;
+    line-height: 16px;
+    margin-left: 60px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .form__title,
+  .form__text {
+    margin-left: 110px;
+  }
+
+  .form__wrapper {
+    display: flex;
+  }
+
+  .form__wrapper .form__block {
+    margin-left: 110px;
+  }
+
+  .form__wrapper .form__list:nth-child(1) {
+    margin-left: 0;
+  }
+
+  .form__list {
+    margin-left: 0;
+  }
+
+  .form__block {
+    margin-left: 110px;
+  }
+
+  .form__block:nth-child(2) {
+    width: 568px;
+    height: 194px;
+    margin-left: auto;
+    margin-right: 110px;
+  }
+
+  .form__block:nth-child(4) .form__list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .form__comment {
+    width: 1216px;
+    height: 170px;
+    margin-left: -89px;
+  }
+
+  .form__button {
+    width: 568px;
+    height: 52px;
+    margin-left: 110px;
+  }
+}

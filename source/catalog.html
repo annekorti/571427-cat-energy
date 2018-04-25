@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <title>HTML Academy: Кэт энерджи</title>
   <link href="css/style.css" rel="stylesheet">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 </head>
 <body>
 <header class="page-header">
@@ -68,7 +71,7 @@
           </table>
         </div>
       </div>
-      <button class="button product__button">Заказать</button>
+      <button class="button product__button">Заказть</button>
     </div>
     <div class="product">
       <div class="product__wrap">
@@ -194,60 +197,76 @@
   </section>
   <section class="extra-product">
     <h2 class="extra-product__title">Дополнительные товары</h2>
-    <div class="extra-product__block">
-      <h3 class="extra-product__subtitle">Сахарозаменитель</h3>
-      <p class="extra-product__text"><span class="extra-product__quantity">1 упаковка (100 г)</span> 100 Р.</p>
-      <button class="button extra-product__button">Заказать</button>
-    </div>
-    <div class="extra-product__block">
-      <h3 class="extra-product__subtitle">Питьевая вода</h3>
-      <p class="extra-product__text"><span class="extra-product__quantity">5 литров</span> 50 Р.</p>
-      <button class="button extra-product__button">Заказать</button>
-    </div>
-    <div class="extra-product__block">
-      <h3 class="extra-product__subtitle">Молоко</h3>
-      <p class="extra-product__text"><span class="extra-product__quantity">1 литр</span> 100 Р.</p>
-      <button class="button extra-product__button">Заказать</button>
-    </div>
-    <div class="extra-product__block">
-      <h3 class="extra-product__subtitle">Витамины</h3>
-      <p class="extra-product__text"><span class="extra-product__quantity">1 упаковка (30 г)</span> 300 Р.</p>
-      <button class="button extra-product__button">Заказать</button>
-    </div>
-    <div class="extra-product__bonus">
-      <p class="extra-product__gift">
-        Закажите все и получите чехол для кота в подарок!
-      </p>
+    <div class="extra-product__wrapper">
+      <div class="extra-product__column">
+        <div class="extra-product__block">
+          <div class="extra-product__wrap">
+            <h3 class="extra-product__subtitle">Сахарозаменитель</h3>
+            <p class="extra-product__text"><span class="extra-product__quantity">1 упаковка (100 г)</span> 100 Р.</p>
+          </div>
+          <button class="button extra-product__button">Заказать</button>
+        </div>
+        <div class="extra-product__block">
+          <div class="extra-product__wrap">
+            <h3 class="extra-product__subtitle">Питьевая вода</h3>
+            <p class="extra-product__text"><span class="extra-product__quantity">5 литров</span> 50 Р.</p>
+          </div>
+          <button class="button extra-product__button">Заказать</button>
+        </div>
+        <div class="extra-product__block">
+          <div class="extra-product__wrap">
+            <h3 class="extra-product__subtitle">Молоко</h3>
+            <p class="extra-product__text"><span class="extra-product__quantity">1 литр</span> 100 Р.</p>
+          </div>
+          <button class="button extra-product__button">Заказать</button>
+        </div>
+        <div class="extra-product__block">
+          <div class="extra-product__wrap">
+            <h3 class="extra-product__subtitle">Витамины</h3>
+            <p class="extra-product__text"><span class="extra-product__quantity">1 упаковка (30 г)</span> 300 Р.</p>
+          </div>
+          <button class="button extra-product__button">Заказать</button>
+        </div>
+      </div>
+      <div class="extra-product__bonus">
+        <p class="extra-product__gift">
+          Закажите все и получите чехол для кота в подарок!
+        </p>
+      </div>
     </div>
   </section>
 </main>
 <footer class="page-footer">
-  <div class="page-footer__invite page-footer__invite--background-grey invite">
+  <div class="page-footer__invite invite">
     <p class="invite__text">Приглашаем к сотрудничеству дилеров!</p>
     <p class="invite__address">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
   </div>
   <div class="page-footer__map map">
     <!--карта-->
   </div>
-  <div class="page-footer__cat-energy">
-    <!--<img class="page-footer__image" src="#" alt="Cat Energy">-->
-  </div>
-  <div class="page-footer__social social">
-    <ul class="social__list">
-      <li class="social__item">
-        <a class="social__link" href="https://vk.com/htmlacademy">VK</a>
-      </li>
-      <li class="social__item">
-        <a class="social__link" href="https://www.instagram.com/htmlacademy/">instagram</a>
-      </li>
-      <li class="social__item">
-        <a class="social__link" href="https://www.facebook.com/htmlacademy/">FaceBook</a>
-      </li>
-    </ul>
-  </div>
-  <div class="page-footer__contacts contacts">
-    <p class="contacts__text">HTML Academy</p>
-    <a class="contacts__link" href="https://htmlacademy.ru/intensive/adaptive">logo HTML Academy</a>
+  <div class="page-footer__wrap">
+    <div class="page-footer__cat-energy">
+      <!--<img class="page-footer__image" src="#" alt="Cat Energy">-->
+    </div>
+    <div class="page-footer__social social">
+      <ul class="social__list">
+        <li class="social__item">
+          <a class="social__link" href="https://vk.com/htmlacademy"><span class="visually-hidden">VK</span></a>
+        </li>
+        <li class="social__item">
+          <a class="social__link" href="https://www.instagram.com/htmlacademy/"><span
+            class="visually-hidden">instagram</span></a>
+        </li>
+        <li class="social__item">
+          <a class="social__link" href="https://www.facebook.com/htmlacademy/"><span
+            class="visually-hidden">FaceBook</span></a>
+        </li>
+      </ul>
+    </div>
+    <div class="page-footer__contacts contacts">
+      <p class="contacts__text">HTML Academy</p>
+      <a class="contacts__link" href="https://htmlacademy.ru/intensive/adaptive">logo HTML Academy</a>
+    </div>
   </div>
 </footer>
 </body>

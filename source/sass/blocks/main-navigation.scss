@@ -34,3 +34,34 @@
   color: #111111;
   border-bottom: 2px solid #68b738;
 }
+
+@media (min-width: $tablet-width) {
+  .main-navigation__list {
+    display: flex;
+    width: 500px;
+    height: 40px;
+    margin-top: 45px;
+  }
+
+  .main-navigation__item {
+    font-size: 18px;
+    line-height: 24.86px;
+    border: none;
+  }
+
+  .main-navigation__toggle {
+    visibility: hidden;
+    margin: 0;
+    width: 0;
+    height: 0;
+    padding: 0;
+    border: 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .main-navigation__list {
+    font-size: 20px;
+    line-height: 29px;
+  }
+}

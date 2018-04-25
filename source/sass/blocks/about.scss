@@ -57,3 +57,43 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+
+@media (min-width: $tablet-width) {
+  .about__title {
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  .about__wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .about__description {
+    width: 339px;
+    height: 232px;
+    display: block;
+    margin: 0;
+  }
+
+  .about__text {
+    margin: 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .about__title {
+    margin-left: 110px;
+    text-align: left;
+  }
+
+  .about__wrap {
+    margin-left: 88px;
+  }
+
+  .about__description {
+    width: 325px;
+    justify-content: flex-start;
+  }
+}

@@ -1,4 +1,6 @@
+@import "normalize.scss";
 @import "fonts.scss";
+@import "blocks/variables.scss";
 
 body {
   margin: 0 auto;
@@ -29,17 +31,32 @@ input[type="radio"].visually-hidden {
   overflow: hidden;
 }
 
-@import "blocks/main-navigation.scss";
-@import "blocks/choice.scss";
-@import "blocks/button.scss";
-@import "blocks/banner.scss";
+@media (min-width: $tablet-width) {
+  body {
+    min-width: $tablet-width;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  body {
+    min-width: $desktop-width;
+  }
+}
+
 @import "blocks/about.scss";
+@import "blocks/banner.scss";
+@import "blocks/button.scss";
+@import "blocks/choice.scss";
 @import "blocks/example-group.scss";
-@import "blocks/invite.scss";
-@import "blocks/map.scss";
-@import "blocks/page-footer.scss";
-@import "blocks/social.scss";
-@import "blocks/page-catalog.scss";
-@import "blocks/product-group.scss";
 @import "blocks/extra-product.scss";
 @import "blocks/form.scss";
+@import "blocks/invite.scss";
+@import "blocks/main-navigation.scss";
+@import "blocks/map.scss";
+@import "blocks/page-catalog.scss";
+@import "blocks/page-footer.scss";
+@import "blocks/page-form";
+@import "blocks/page-header.scss";
+@import "blocks/page-main";
+@import "blocks/product-group.scss";
+@import "blocks/social.scss";

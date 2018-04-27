@@ -1,8 +1,18 @@
+.about {
+  margin-bottom: 42px;
+}
+
 .about__title {
   font-size: 36px;
   line-height: 60px;
   text-align: left;
+  margin: 0;
   margin-left: 20px;
+  margin-top: 15px;
+}
+
+.about__wrap {
+  margin-top: 28px;
 }
 
 .about__description {
@@ -28,6 +38,8 @@
   margin: 0;
   text-align: left;
   margin-left: 10px;
+  padding-left: 11px;
+  padding-top: 2px;
 }
 
 .about__image--substance {
@@ -38,14 +50,14 @@
 }
 
 .about__image--cook {
-  background-image: url("../../img/advantage-dining@1x.png");
+  background-image: url("../../img/advantage-powder@1x.png");
   background-size: 50px 50px;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .about__image--use {
-  background-image: url("../../img/advantage-powder@1x.png");
+  background-image: url("../../img/advantage-dining@1x.png");
   background-size: 50px 50px;
   background-position: center;
   background-repeat: no-repeat;

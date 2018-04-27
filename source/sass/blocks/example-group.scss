@@ -8,6 +8,8 @@
   line-height: 60px;
   font-weight: normal;
   margin-left: 20px;
+  margin-bottom: 0;
+  padding-top: 17px;
 }
 
 .example__box {
@@ -20,6 +22,8 @@
   font-size: 14px;
   line-height: 18px;
   color: #444444;
+  margin-top: 23px;
+  width: 267px;
 }
 
 .example__wrap {
@@ -30,24 +34,48 @@
   width: 130px;
   height: 72px;
   text-align: center;
+  margin-left: 15px;
+}
+
+.example__block:nth-child(2) {
+  margin-left: 24px;
 }
 
 .example__subtitle {
   font-size: 24px;
   line-height: 24px;
   font-weight: normal;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.example__block:nth-child(2) .example__subtitle {
+  padding-left: 9px;
 }
 
 .example__text {
   font-family: "Arial", "Tahoma", sans-serif;
   font-size: 12px;
   line-height: 12px;
+  width: 82px;
+  margin-top: 10px;
+  margin-left: 25px;
 }
 
 .example__cost {
   text-align: center;
   font-size: 14px;
   line-height: 20px;
+  text-transform: uppercase;
+  margin-top: 29px;
+}
+
+.example__wrapper {
+  min-height: 705px;
+}
+
+.example__slider {
+  padding-top: 280px;
 }
 
 @media (min-width: $tablet-width) {

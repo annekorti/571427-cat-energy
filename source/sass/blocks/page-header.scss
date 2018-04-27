@@ -1,6 +1,11 @@
-.page-header {
-  //outline: 1px solid #333333;
-  //background: #333333;
+.page-header__logo {
+  display: flex;
+  margin-bottom: 14px;
+}
+
+.page-header__logo-image {
+  margin-left: 22px;
+  margin-top: 11px;
 }
 
 @media (min-width: $tablet-width) {

@@ -8,7 +8,7 @@ body {
   font-family: "Oswald", "Arial", sans-serif;
   width: 320px;
   text-align: center;
-  background-color: #ffffff;
+  background-color: darkred;
   outline: 1px solid #333333;
 }
 
@@ -47,6 +47,7 @@ input[type="radio"].visually-hidden {
 @import "blocks/banner.scss";
 @import "blocks/button.scss";
 @import "blocks/choice.scss";
+@import "blocks/contacts.scss";
 @import "blocks/example-group.scss";
 @import "blocks/extra-product.scss";
 @import "blocks/form.scss";

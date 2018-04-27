@@ -7,13 +7,15 @@
   background-repeat: no-repeat;
   height: 305px;
   color: #ffffff;
+  margin-bottom: 198px;
 }
 
 .banner__title {
   font-weight: normal;
   font-size: 36px;
   line-height: 36px;
-  margin-top: 0;
+  margin: 0;
+  padding-top: 26px;
 }
 
 .banner__text {
@@ -21,6 +23,17 @@
   font-size: 14px;
   line-height: 14px;
   text-transform: uppercase;
+  padding-top: 11px;
+}
+
+.banner__button {
+  margin-top: 302px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+  font-size: 14px;
+  line-height: 18px;
 }
 
 @media (min-width: $tablet-width) {

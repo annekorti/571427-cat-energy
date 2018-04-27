@@ -11,6 +11,17 @@
   height: 94px;
 }
 
+.page-footer__contacts {
+  font-family: "Arial", "Tahoma", sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 20px;
+  padding-bottom: 3px;
+}
+
 .page-footer__invite--background-grey {
   background-color: #f2f2f2;
 }

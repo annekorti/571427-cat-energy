@@ -2,6 +2,8 @@
   text-align: left;
   display: flex;
   background: #ffffff;
+  padding-top: 12px;
+  padding-bottom: 10px;
 }
 
 .invite__text {
@@ -9,6 +11,7 @@
   font-size: 16px;
   line-height: 20px;
   margin-left: 20px;
+  text-transform: uppercase;
 }
 
 .invite__address {
@@ -18,6 +21,8 @@
   line-height: 20px;
   color: #444444;
   font-weight: normal;
+  margin-left: 11px;
+  padding-top: 2px;
 }
 
 @media (min-width: $tablet-width) {

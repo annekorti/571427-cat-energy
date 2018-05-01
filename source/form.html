@@ -32,32 +32,32 @@
       <div class="form__block">
         <ul class="form__list">
           <li class="form__item">
-            <label for="form-name">Имя:<sup>*</sup></label>
-            <input id="form-name" type="text" name="name" value="" placeholder="Барсик">
+            <label class="form__label" for="form-name">Имя:<sup>*</sup></label>
+            <input class="form__input" id="form-name" type="text" name="name" value="" placeholder="Барсик">
           </li>
           <li class="form__item">
-            <label for="form-weight">Вес (КГ):<sup>*</sup></label>
-            <input id="form-weight" type="text" name="weight" value="" placeholder="7">
+            <label class="form__label" for="form-weight">Вес (КГ):<sup>*</sup></label>
+            <input class="form__input" id="form-weight" type="text" name="weight" value="" placeholder="7">
           </li>
           <li class="form__item">
-            <label for="form-age">Возраст (ЛЕТ):<sup>*</sup></label>
-            <input id="form-age" type="text" name="age" value="" placeholder="7">
+            <label class="form__label" for="form-age">Возраст (ЛЕТ):<sup>*</sup></label>
+            <input class="form__input" id="form-age" type="text" name="age" value="" placeholder="7">
           </li>
         </ul>
       </div>
       <div class="form__block">
         <ul class="form__list">
-          <li class="form__item">
+          <li class="form__item form__item-radio">
             <input class="visually-hidden" type="radio" id="weight-down" name="choose" value="lift-down" checked>
-            <label for="weight-down">Похудение</label>
+            <label class="form__label" for="weight-down">Похудение</label>
           </li>
-          <li class="form__item">
+          <li class="form__item form__item-radio">
             <input class="visually-hidden" type="radio" id="weight-up" name="choose" value="lift-up">
-            <label for="weight-up">Набор массы</label>
+            <label class="form__label" for="weight-up">Набор массы</label>
           </li>
-          <li class="form__item">
+          <li class="form__item form__item-radio">
             <input class="visually-hidden" type="radio" id="advice" name="choose" value="nothing">
-            <label for="advice">Не знаю (нужен ваш совет)</label>
+            <label class="form__label" for="advice">Не знаю (нужен ваш совет)</label>
           </li>
         </ul>
       </div>
@@ -65,13 +65,13 @@
     <div class="form__block">
       <h2 class="form__subtitle">Контактные данные (владельца кота)</h2>
       <ul class="form__list">
-        <li class="form__item">
-          <label for="form-mail">E-MAIL:<sup>*</sup></label>
-          <input id="form-mail" type="text" name="name" value="" placeholder="kuklachev@gmail.com">
+        <li class="form__item form__item-contact">
+          <label class="form__label" for="form-mail">E-MAIL:<sup>*</sup></label>
+          <input class="form__input" id="form-mail" type="text" name="name" value="" placeholder="kuklachev@gmail.com">
         </li>
-        <li class="form__item">
-          <label for="form-phone">Телефон:<sup>*</sup></label>
-          <input id="form-phone" type="text" name="name" value="" placeholder="8 (960) 900-60-90">
+        <li class="form__item form__item-contact">
+          <label class="form__label" for="form-phone">Телефон:<sup>*</sup></label>
+          <input class="form__input" id="form-phone" type="text" name="name" value="" placeholder="8 (960) 900-60-90">
         </li>
       </ul>
     </div>
@@ -83,31 +83,31 @@
     <div class="form__block">
       <h2 class="form__subtitle">Дополнительно</h2>
       <ul class="form__list">
-        <li class="form__item">
+        <li class="form__item form__item-checkbox">
           <input class="visually-hidden" type="checkbox" name="sugar" id="form-sugar" checked>
-          <label for="form-sugar">Сахарозаменитель</label>
+          <label class="form__label" for="form-sugar">Сахарозаменитель</label>
         </li>
-        <li class="form__item">
+        <li class="form__item form__item-checkbox">
           <input class="visually-hidden" type="checkbox" name="water" id="form-water">
-          <label for="form-water">Питьевая вода</label>
+          <label class="form__label" for="form-water">Питьевая вода</label>
         </li>
-        <li class="form__item">
+        <li class="form__item form__item-checkbox">
           <input class="visually-hidden" type="checkbox" name="milk" id="form-milk">
-          <label for="form-milk">Молоко</label>
+          <label class="form__label" for="form-milk">Молоко</label>
         </li>
-        <li class="form__item">
+        <li class="form__item form__item-checkbox">
           <input class="visually-hidden" type="checkbox" name="pill" id="form-pill">
-          <label for="form-pill">Витамины</label>
+          <label class="form__label" for="form-pill">Витамины</label>
         </li>
       </ul>
     </div>
     <div class="form__wrap">
       <button class="button form__button" type="submit">Отправить заявку</button>
-      <p class="form__footnote"><sup>*</sup>—Обязательные поля</p>
+      <p class="form__footnote"><sup>*</sup> — Обязательные поля</p>
     </div>
   </form>
 </main>
-<footer class="page-footer">
+<footer class="page-footer page-footer--form-margin">
   <div class="page-footer__invite invite">
     <p class="invite__text">Приглашаем к сотрудничеству дилеров!</p>
     <p class="invite__address">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>

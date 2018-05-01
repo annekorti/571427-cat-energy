@@ -10,20 +10,28 @@
 
 .extra-product__block {
   width: 280px;
-  height: 130px;
   margin: 0 auto;
+  height: 128px;
 }
 
 .extra-product__subtitle {
   font-size: 16px;
   line-height: 16px;
   text-transform: uppercase;
+  margin: 0;
 }
 
 .extra-product__text {
   font-family: "Arial", "Tahoma", sans-serif;
   font-size: 14px;
   line-height: 14px;
+  margin-top: 13px;
+  margin-bottom: 14px;
+}
+
+.extra-product__column {
+  margin-bottom: 29px;
+  margin-top: 49px;
 }
 
 //.extra-product__quantity {
@@ -44,9 +52,10 @@
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
-  width: 164px;
   text-align: center;
   margin: 0 auto;
+  padding-top: 186px;
+  width: 161px;
 }
 
 @media (min-width: $tablet-width) {

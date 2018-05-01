@@ -1,9 +1,13 @@
 .invite {
   text-align: left;
   display: flex;
-  background: #ffffff;
+  background: #f2f2f2;
   padding-top: 12px;
   padding-bottom: 10px;
+}
+
+.invite--background-white {
+  background-color: #ffffff;
 }
 
 .invite__text {

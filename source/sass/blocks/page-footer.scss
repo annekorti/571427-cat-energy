@@ -22,8 +22,12 @@
   padding-bottom: 3px;
 }
 
-.page-footer__invite--background-grey {
-  background-color: #f2f2f2;
+.page-footer--catalog-margin {
+  margin-top: 35px;
+}
+
+.page-footer--form-margin {
+  margin-top: 31px;
 }
 
 @media (min-width: $tablet-width) {

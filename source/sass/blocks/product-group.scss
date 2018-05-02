@@ -212,19 +212,33 @@
 }
 
 @media (min-width: $desktop-width) {
+  .page-catalog__tagline {
+    margin-top: 22px;
+  }
+
   .product {
     width: 245px;
-    margin-left: 80px;
+    margin-right: 0;
+    margin-left: 89px;
     background-color: #f2f2f2;
   }
 
-  .product:nth-child(1),
-  .product:nth-child(5) {
-    margin-left: 110px;
+  .product__title {
+    margin-left: -10px;
+  }
+
+  //.product:nth-child(1),
+  //.product:nth-child(5) {
+  //  margin-left: 90px;
+  //}
+
+  .product__table tbody {
+    width: 171px;
   }
 
   .product__button {
-    margin-left: 0;
+    margin: 0 auto;
+    margin-top: 40px;
     width: 169px;
     height: 40px;
   }

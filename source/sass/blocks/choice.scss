@@ -127,6 +127,7 @@
 @media (min-width: $desktop-width) {
   .choice {
     display: flex;
+    margin-top: 93px;
   }
 
   .choice__block {
@@ -151,15 +152,20 @@
     position: static;
     width: 100px;
     height: 100px;
+    margin-top: 25px;
+    margin-left: 30px;
   }
 
   .choice__title {
     font-size: 36px;
     line-height: 37px;
+    margin-left: 61px;
+    margin-top: 21px;
   }
 
   .choice__text {
     font-size: 16px;
     line-height: 24px;
+    width: 463px;
   }
 }

@@ -65,7 +65,24 @@
 
 @media (min-width: $desktop-width) {
   .main-navigation__list {
-    font-size: 20px;
     line-height: 29px;
+    margin-top: 53px;
+    padding-bottom: 80px;
+    width: 478px;
+    height: auto;
+    margin-left: 0;
+  }
+
+  .main-navigation__item {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .main-navigation__item:nth-child(2) {
+    width: 181px;
+  }
+
+  .main-navigation__item:nth-child(3) {
+    width: 180px;
   }
 }

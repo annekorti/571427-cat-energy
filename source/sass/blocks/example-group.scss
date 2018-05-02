@@ -158,10 +158,17 @@
 @media (min-width: $desktop-width) {
   .example-group {
     background: none;
+    margin-top: 0;
+    min-height: 274px;
+  }
+
+  .example {
+    height: 639px;
   }
 
   .example__title {
-    margin-left: 110px;
+    margin: 0;
+    margin-left: 100px;
   }
 
   .example__wrapper {
@@ -182,10 +189,14 @@
     width: 1440px;
     display: flex;
     background-color: #f2f2f2;
+    margin-top: 72px;
+    height: 463px;
   }
 
   .example__description {
     width: 436px;
+    padding-top: 49px;
+    padding-left: 0;
   }
 
   .example__box {
@@ -196,6 +207,11 @@
     display: flex;
     margin-bottom: 60px;
     flex-direction: column;
+  }
+
+  .example__wrap {
+    margin-left: 0;
+    margin-top: 36px;
   }
 
   .example__text {
@@ -209,10 +225,11 @@
     width: auto;
     text-align: left;
     margin: 0;
-    margin-top: 60px;
+    margin-top: 45px;
   }
 
   .example__slider {
+    margin: 0;
     width: 650px;
   }
 }

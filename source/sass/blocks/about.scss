@@ -113,13 +113,18 @@
 }
 
 @media (min-width: $desktop-width) {
+  .about {
+    margin-bottom: 0;
+  }
+
   .about__title {
     margin-left: 110px;
     text-align: left;
   }
 
   .about__wrap {
-    margin-left: 88px;
+    margin-left: 20px;
+    margin-top: 24px;
   }
 
   .about__description {

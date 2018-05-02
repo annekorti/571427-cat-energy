@@ -79,14 +79,25 @@
 }
 
 @media (min-width: $tablet-width) {
+  .example-group {
+    margin-top: 102px;
+    min-height: 1081px;
+    background: none;
+  }
+
   .example__title {
     font-size: 60px;
     line-height: 60px;
+    padding-top: 43px;
+    padding-left: 10px;
   }
 
   .example__description {
     font-size: 16px;
     line-height: 24px;
+    width: 676px;
+    padding-left: 10px;
+    padding-top: 40px;
   }
 
   .example__cover {
@@ -96,10 +107,51 @@
   .example__cost {
     margin-left: auto;
     margin-right: 30px;
+    text-align: right;
+    font-size: 20px;
+    line-height: 20px;
+    width: 184px;
+    margin-top: 50px;
+  }
+
+  .example__wrap {
+    margin-top: 24px;
+    margin-left: 30px;
   }
 
   .example__block {
     margin-bottom: 30px;
+  }
+
+  .example__text {
+    width: 108px;
+    margin-left: 12px;
+    margin-top: 13px;
+    font-size: 14px;
+    line-height: 14px;
+  }
+
+  .example__subtitle {
+    font-size: 30px;
+    line-height: 37px;
+  }
+
+  .example__block:nth-child(2) .example__subtitle {
+    margin-left: 52px;
+    width: 111px;
+  }
+
+  .example__block:nth-child(2) .example__text {
+    width: 127px;
+    margin-left: 52px;
+    margin-top: 13px;
+  }
+
+  .example__slider {
+    padding: 0;
+    background-color: #f2f2f2;
+    height: 462px;
+    margin-top: 240px;
   }
 }
 

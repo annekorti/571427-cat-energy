@@ -39,26 +39,39 @@
 @media (min-width: $tablet-width) {
   .banner {
     background: none;
-    background-color: #333333;
+    background-color: #ffffff;
     min-height: 809px;
+    margin-bottom: 40px;
   }
 
   .banner__title {
     width: 427px;
     font-size: 60px;
     line-height: 60px;
+    margin-left: 117px;
+    text-align: left;
+    padding-top: 41px;
+    color: #000000;
   }
 
   .banner__text {
     font-size: 20px;
     line-height: 20px;
+    text-align: left;
+    padding-top: 21px;
+    margin-left: 118px;
+    color: #000000;
   }
 
   .banner__button {
-    display: block;
+    display: flex;
     text-align: center;
     font-size: 20px;
     line-height: 20px;
+    margin-left: 119px;
+    margin-top: 47px;
+    width: 245px;
+    height: 52px;
   }
 }
 

@@ -75,11 +75,27 @@
   .extra-product__title {
     font-size: 36px;
     line-height: 36px;
+    margin-top: 66px;
+    margin-left: 66px;
+  }
+
+  .extra-product__column {
+    margin-top: 80px;
+    margin-bottom: 0;
   }
 
   .extra-product__subtitle {
     font-size: 20px;
     line-height: 20px;
+    margin-left: 8px;
+    margin-top: 20px;
+  }
+
+  .extra-product__text {
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0;
+    padding-top: 28px;
   }
 
   .extra-product__button {
@@ -87,7 +103,19 @@
     line-height: 20px;
     width: 633px;
     height: 40px;
-    margin-left: 30px;
+    margin-left: 37px;
+    margin-top: 23px;
+  }
+
+  .extra-product__bonus {
+    margin-top: 22px;
+    background-size: 707px 201px;
+  }
+
+  .extra-product__gift {
+    margin-left: 453px;
+    text-align: left;
+    padding-top: 117px;
   }
 }
 

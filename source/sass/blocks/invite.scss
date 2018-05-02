@@ -33,18 +33,23 @@
   .invite {
     justify-content: space-between;
     padding: 0 30px;
+    padding-bottom: 43px;
   }
 
   .invite__text {
     font-size: 20px;
     line-height: 25px;
+    margin-left: 40px;
+    margin-top: 65px;
   }
 
   .invite__address {
     font-size: 16px;
     line-height: 20px;
     width: 164px;
-    text-align: center;
+    text-align: right;
+    margin-right: 40px;
+    margin-top: 60px;
   }
 }
 

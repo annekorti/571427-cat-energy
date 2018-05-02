@@ -31,10 +31,15 @@
 }
 
 @media (min-width: $tablet-width) {
+  .page-footer {
+    padding-bottom: 30px;
+  }
+
   .page-footer__wrap {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    min-height: 150px;
   }
 
   .page-footer__contacts {

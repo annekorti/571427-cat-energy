@@ -166,6 +166,14 @@
   .choice__text {
     font-size: 16px;
     line-height: 24px;
+  }
+
+  .choice__text:nth-child(2) {
     width: 463px;
+    margin-top: 21px;
+  }
+
+  .choice__link {
+    padding-top: 14px;
   }
 }

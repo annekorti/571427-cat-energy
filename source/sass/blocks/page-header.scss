@@ -27,27 +27,6 @@
     width: 173px;
     height: 58px;
   }
-
-  .main-navigation__list {
-    display: flex;
-    justify-content: space-between;
-    margin: 0;
-    margin-top: 22px;
-    margin-left: 101px;
-    width: 450px;
-  }
-
-  .main-navigation__item:nth-child(1) {
-    width: 75px;
-  }
-
-  .main-navigation__item:nth-child(2) {
-    width: 193px;
-  }
-
-  .main-navigation__item:nth-child(3) {
-    width: 162px;
-  }
 }
 
 @media (min-width: $desktop-width) {

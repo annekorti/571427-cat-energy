@@ -111,11 +111,19 @@
 .form__item-contact:nth-child(1) input {
   width: 203px;
   margin-left: 10px;
+  background: url("../../img/icon-mail.svg") no-repeat center / cover;
+  background-size: 18px 18px;
+  content: "";
+  background-position: 184px;
 }
 
 .form__item-contact:nth-child(2) input {
   width: 187px;
   margin-left: 7px;
+  background: url("../../img/icon-phone.svg") no-repeat center / cover;
+  background-size: 20px 20px;
+  content: "";
+  background-position: 170px;
 }
 
 .form__item-checkbox {

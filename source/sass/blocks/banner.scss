@@ -8,6 +8,7 @@
   height: 305px;
   color: #ffffff;
   margin-bottom: 198px;
+  position: relative;
 }
 
 .banner__title {
@@ -26,8 +27,17 @@
   padding-top: 11px;
 }
 
+.banner__image {
+  background-image: url("../../img/index-can-mobile@1x.png");
+  background-size: 280px 271px;
+  background-repeat: no-repeat;
+  height: 271px;
+  background-position: center;
+  margin-top: 27px;
+}
+
 .banner__button {
-  margin-top: 302px;
+  margin-top: 4px;
   display: flex;
   justify-content: center;
   align-items: center;

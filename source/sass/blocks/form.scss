@@ -138,6 +138,30 @@
   line-height: 24px;
   text-align: left;
   margin-left: 20px;
+  position: relative;
+
+  &::after {
+    display: block;
+    position: absolute;
+    top: 13px;
+    right: -100px;
+    content: "";
+    width: 99px;
+    height: 3px;
+    background-color: #68b738;
+  }
+}
+
+.form__block:nth-child(5) .form__subtitle {
+  &::after {
+    width: 158px;
+  }
+}
+
+.form__block:nth-child(6) .form__subtitle {
+  &::after {
+    width: 136px;
+  }
 }
 
 .form__comment {
@@ -261,6 +285,61 @@
     margin-left: 0;
     width: 576px;
     margin-top: 75px;
+
+    &::after {
+      top: 22px;
+      right: -121px;
+      width: 130px;
+    }
+
+    &::before {
+      display: block;
+      position: absolute;
+      top: 22px;
+      left: -71px;
+      content: "";
+      width: 31px;
+      height: 3px;
+      background-color: #68b738;
+    }
+  }
+
+  .form__block:nth-child(5) .form__subtitle {
+    margin-top: 64px;
+
+    &::after {
+      width: 480px;
+    }
+
+    &::before {
+      display: block;
+      position: absolute;
+      top: 22px;
+      left: -71px;
+      content: "";
+      width: 31px;
+      height: 3px;
+      background-color: #68b738;
+    }
+  }
+
+  .form__block:nth-child(6) .form__subtitle {
+    margin-top: 52px;
+
+    &::after {
+      width: 446px;
+    }
+
+    &::before {
+      display: block;
+      position: absolute;
+      top: 22px;
+      left: -71px;
+      content: "";
+      width: 31px;
+      height: 3px;
+      background-color: #68b738;
+    }
   }
 
   .form__block:nth-child(4) .form__item:nth-child(2) {
@@ -282,10 +361,6 @@
     margin-left: 11px;
   }
 
-  .form__block:nth-child(5) .form__subtitle {
-    margin-top: 64px;
-  }
-
   .form__comment {
     width: 609px;
     height: 170px;
@@ -295,10 +370,6 @@
     padding-left: 18px;
     margin-left: -68px;
     margin-top: 45px;
-  }
-
-  .form__block:nth-child(6) .form__subtitle {
-    margin-top: 52px;
   }
 
   .form__block:nth-child(6) .form__list {
@@ -439,9 +510,6 @@
     margin-left: -111px;
   }
 
-  .form__block:nth-child(6) .form__subtitle {
-    margin-top: 65px;
-  }
 
   .form__block:nth-child(6) .form__item-checkbox:nth-child(2) {
     margin-left: 38px;
@@ -469,5 +537,42 @@
 
   .form__footnote {
     margin-left: 84px;
+  }
+
+  .form__subtitle {
+    &::after {
+      top: 22px;
+      right: -754px;
+      width: 721px;
+    }
+
+    &::before {
+      left: -110px;
+      width: 70px;
+    }
+  }
+
+  .form__block:nth-child(5) .form__subtitle {
+    &::after {
+      width: 1111px;
+    }
+
+    &::before {
+      left: -110px;
+      width: 70px;
+    }
+  }
+
+  .form__block:nth-child(6) .form__subtitle {
+    margin-top: 65px;
+
+    &::after {
+      width: 1078px;
+    }
+
+    &::before {
+      left: -110px;
+      width: 70px;
+    }
   }
 }

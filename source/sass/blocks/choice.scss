@@ -18,18 +18,18 @@
 }
 
 .choice__cat--slim {
-  background-image: url("../../img/icon-cat-slim.svg");
-  background-repeat: no-repeat;
-  background-size: 35px 49px;
-  background-position: center;
+  //background-image: url("../../img/icon-cat-slim.svg");
+  //background-repeat: no-repeat;
+  //background-size: 35px 49px;
+  //background-position: center;
   height: 49px;
 }
 
 .choice__cat--pro {
-  background-image: url("../../img/icon-cat-pro.svg");
-  background-repeat: no-repeat;
-  background-size: 67px 28px;
-  background-position: center;
+  //background-image: url("../../img/icon-cat-pro.svg");
+  //background-repeat: no-repeat;
+  //background-size: 67px 28px;
+  //background-position: center;
   height: 28px;
 }
 
@@ -38,6 +38,9 @@
   height: 51px;
   background-color: #68b738;
   border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .choice__title {

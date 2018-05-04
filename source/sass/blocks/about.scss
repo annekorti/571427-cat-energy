@@ -43,23 +43,31 @@
 }
 
 .about__image--substance {
-  background: url("../img/advantage-leaf@1x.png") center no-repeat;
+  background-image: url("../img/advantage-leaf@1x.png");
   background-size: 50px 50px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .about__image--cook {
-  background: url("../img/advantage-powder@1x.png") center no-repeat;
+  background-image: url("../img/advantage-powder@1x.png");
   background-size: 50px 50px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .about__image--use {
-  background: url("../img/advantage-dining@1x.png") center no-repeat;
+  background-image: url("../img/advantage-dining@1x.png");
   background-size: 50px 50px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .about__image--time {
-  background: url("../img/advantage-clock@1x.png") center no-repeat;
+  background-image: url("../img/advantage-clock@1x.png");
   background-size: 50px 50px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 @media (min-width: $tablet-width) {

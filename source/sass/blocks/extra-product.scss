@@ -5,7 +5,7 @@
 .extra-product__title {
   font-size: 24px;
   line-height: 24px;
-  margin-left: 20px;
+  margin: 0 0 0 20px;
   position: relative;
 
   &::after {
@@ -30,14 +30,14 @@
   font-size: 16px;
   line-height: 16px;
   text-transform: uppercase;
-  margin: 0;
+  margin: 0 0 13px 0;
 }
 
 .extra-product__text {
   font-family: "Arial", "Tahoma", sans-serif;
   font-size: 14px;
   line-height: 14px;
-  margin-top: 13px;
+  margin-top: 0;
   margin-bottom: 14px;
   min-width: 242px;
 }

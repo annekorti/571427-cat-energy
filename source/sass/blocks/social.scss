@@ -1,5 +1,7 @@
 .social {
   height: 62px;
+  display: flex;
+  justify-content: center;
 }
 
 .social__list {
@@ -8,8 +10,8 @@
   list-style: none;
   display: flex;
   justify-content: space-between;
-  margin-left: 89px;
-  margin-top: 25px;
+  margin: 0;
+  align-items: center;
 }
 
 //.social__link:nth-child(1) {

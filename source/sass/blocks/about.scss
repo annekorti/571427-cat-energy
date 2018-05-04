@@ -8,11 +8,11 @@
   text-align: left;
   margin: 0;
   margin-left: 20px;
-  margin-top: 15px;
+  margin-bottom: 28px;
 }
 
 .about__wrap {
-  margin-top: 28px;
+  margin-top: 0;
 }
 
 .about__description {
@@ -27,6 +27,7 @@
   width: 60px;
   height: 60px;
   background-color: #68b738;
+  margin-right: 21px;
 }
 
 .about__text {
@@ -36,38 +37,29 @@
   color: #444444;
   width: 200px;
   margin: 0;
+  padding: 0;
+  margin-top: 2px;
   text-align: left;
-  margin-left: 10px;
-  padding-left: 11px;
-  padding-top: 2px;
 }
 
 .about__image--substance {
-  background-image: url("../img/advantage-leaf@1x.png");
+  background: url("../img/advantage-leaf@1x.png") center no-repeat;
   background-size: 50px 50px;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 .about__image--cook {
-  background-image: url("../img/advantage-powder@1x.png");
+  background: url("../img/advantage-powder@1x.png") center no-repeat;
   background-size: 50px 50px;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 .about__image--use {
-  background-image: url("../img/advantage-dining@1x.png");
+  background: url("../img/advantage-dining@1x.png") center no-repeat;
   background-size: 50px 50px;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 .about__image--time {
-  background-image: url("../img/advantage-clock@1x.png");
+  background: url("../img/advantage-clock@1x.png") center no-repeat;
   background-size: 50px 50px;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 @media (min-width: $tablet-width) {

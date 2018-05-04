@@ -4,11 +4,9 @@
 
 .page-footer__cat-energy {
   width: 320px;
-  background-image: url("../img/logo-footer.svg");
-  background-repeat: no-repeat;
-  background-position: center;
+  background: url("../img/logo-footer.svg") center no-repeat;
   background-size: 128px 24px;
-  height: 94px;
+  min-height: 94px;
 }
 
 .page-footer__contacts {

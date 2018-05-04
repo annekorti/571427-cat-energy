@@ -1,6 +1,14 @@
-.page-header {
-  //outline: 1px solid #333333;
-  //background: #333333;
+.page-header__logo {
+  margin: 0;
+  height: 65px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.page-header__logo-image {
+  margin: 0;
 }
 
 @media (min-width: $tablet-width) {
@@ -18,12 +26,6 @@
   .page-header__logo-image {
     width: 173px;
     height: 58px;
-  }
-
-  .main-navigation__list {
-    display: flex;
-    justify-content: space-around;
-    margin: 0;
   }
 }
 

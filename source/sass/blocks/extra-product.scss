@@ -5,34 +5,64 @@
 .extra-product__title {
   font-size: 24px;
   line-height: 24px;
-  margin-left: 20px;
+  margin: 0 0 0 20px;
+  position: relative;
+
+  &::after {
+    display: block;
+    position: absolute;
+    top: 13px;
+    right: 0;
+    content: "";
+    width: 53px;
+    height: 3px;
+    background-color: #68b738;
+  }
 }
 
 .extra-product__block {
   width: 280px;
-  height: 130px;
   margin: 0 auto;
+  height: 128px;
 }
 
 .extra-product__subtitle {
   font-size: 16px;
   line-height: 16px;
   text-transform: uppercase;
+  margin: 0 0 13px 0;
 }
 
 .extra-product__text {
   font-family: "Arial", "Tahoma", sans-serif;
   font-size: 14px;
   line-height: 14px;
+  margin-top: 0;
+  margin-bottom: 14px;
+  min-width: 242px;
 }
 
-//.extra-product__quantity {
-//  width: 240px;
-//  ???
-//}
+.extra-product__column {
+  margin-bottom: 29px;
+  margin-top: 49px;
+}
+
+.extra-product__box {
+  display: flex;
+}
+
+.extra-product__quantity {
+  font-family: "Arial", "Tahoma", sans-serif;
+  font-size: 14px;
+  line-height: 14px;
+  margin-bottom: 0;
+  margin-top: 0;
+  display: inline-block;
+  min-width: 238px;
+}
 
 .extra-product__bonus {
-  background-image: url("../../img/gift-photo-mobile@1x.jpg");
+  background-image: url("../img/gift-photo-mobile@1x.jpg");
   background-size: 280px 289px;
   background-repeat: no-repeat;
   background-position: center;
@@ -44,9 +74,14 @@
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
-  width: 164px;
   text-align: center;
   margin: 0 auto;
+  padding-top: 186px;
+  width: 161px;
+  background-image: url("../img/icon-gift.svg");
+  background-size: 55px 60px;
+  background-position: center 66px;
+  background-repeat: no-repeat;
 }
 
 @media (min-width: $tablet-width) {
@@ -66,11 +101,51 @@
   .extra-product__title {
     font-size: 36px;
     line-height: 36px;
+    margin-top: 66px;
+    margin-left: 66px;
+
+    &::before {
+      display: block;
+      position: absolute;
+      top: 22px;
+      left: -66px;
+      content: "";
+      width: 27px;
+      height: 3px;
+      background-color: #68b738;
+    }
+
+    &::after {
+      top: 22px;
+      width: 327px;
+    }
+  }
+
+  .extra-product__column {
+    margin-top: 80px;
+    margin-bottom: 0;
   }
 
   .extra-product__subtitle {
     font-size: 20px;
     line-height: 20px;
+    margin-left: 8px;
+    margin-top: 25px;
+  }
+
+  .extra-product__text {
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0;
+    padding-top: 30px;
+    min-width: 0;
+  }
+
+  .extra-product__quantity {
+    margin-top: 0;
+    padding-top: 0;
+    min-width: 0;
+    margin-right: 54px;
   }
 
   .extra-product__button {
@@ -78,13 +153,36 @@
     line-height: 20px;
     width: 633px;
     height: 40px;
-    margin-left: 30px;
+    margin-left: 37px;
+    margin-top: 23px;
+  }
+
+  .extra-product__bonus {
+    margin-top: 22px;
+    background-size: 707px 201px;
+  }
+
+  .extra-product__gift {
+    margin-left: 453px;
+    text-align: left;
+    padding-top: 117px;
   }
 }
 
 @media (min-width: $desktop-width) {
   .extra-product__title {
     margin-left: 110px;
+    margin-top: 74px;
+
+    &::before {
+      left: -110px;
+      width: 70px;
+    }
+
+    &::after {
+      top: 22px;
+      width: 957px;
+    }
   }
 
   .extra-product__wrapper {
@@ -93,20 +191,54 @@
   }
 
   .extra-product__bonus {
-    margin-left: auto;
-    margin-right: 110px;
+    margin: 0;
+    margin-top: 51px;
+    margin-left: 80px;
+    width: 245px;
+    height: 289px;
+    background-size: 245px 289px;
+  }
+
+  .extra-product__gift {
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 187px;
+  }
+
+  .extra-product__column {
+    margin-top: 51px;
   }
 
   .extra-product__block {
     border-left: none;
     border-right: none;
     display: flex;
+    height: 71px;
+    width: 895px;
+  }
+
+  .extra-product__subtitle {
+    margin: 0;
+    min-width: 325px;
+  }
+
+  .extra-product__text {
+    padding: 0;
+    min-width: 174px;
+  }
+
+  .extra-product__quantity {
+    min-width: 240px;
+    padding-top: 10px;
+    margin-right: 9px;
   }
 
   .extra-product__button {
     width: 245px;
     align-self: center;
     margin-left: auto;
+    margin-top: 0;
   }
 
   .extra-product__wrap {

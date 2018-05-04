@@ -1,3 +1,7 @@
+.product-group {
+  margin: 0 20px 54px 20px;
+}
+
 .product {
   width: 300px;
   height: 209px;
@@ -5,6 +9,7 @@
 
 .product__wrap {
   display: flex;
+  width: 280px;
 }
 
 .product__title {
@@ -13,8 +18,8 @@
   font-weight: normal;
   text-transform: uppercase;
   text-align: left;
-  margin: 0;
-  width: 75px;
+  margin: 22px 0 7px 0;
+  width: 80px;
   height: 43px;
 }
 
@@ -25,6 +30,16 @@
   color: #444444;
   text-align: left;
   margin: 0;
+  display: flex;
+}
+
+.product__table tbody {
+  width: 140px;
+}
+
+.product__table tr {
+  display: flex;
+  justify-content: space-between;
 }
 
 .product__box {
@@ -32,13 +47,22 @@
 }
 
 .product__button {
-  margin-left: 20px;
+  //margin-left: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.product__more {
+  margin-top: 34px;
 }
 
 .product__subtitle {
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
+  margin: 0;
+  margin-top: 28px;
+  margin-bottom: 7px;
 }
 
 .product__text {
@@ -46,11 +70,21 @@
   font-size: 12px;
   line-height: 16px;
   color: #444444;
+  margin: 0 0 22px 0;
+}
+
+.product:nth-child(7) {
+  margin-bottom: 34px;
+}
+
+.product-more {
+  margin: 0 0 20px 0;
 }
 
 .product__button-more {
   background-color: #f2f2f2;
   color: #444444;
+  margin: 0;
 
   &:hover,
   &:focus {
@@ -72,12 +106,40 @@
   .product {
     width: 324px;
     height: 431px;
-    margin-left: 30px;
+    margin-left: 10px;
+    background-color: #f2f2f2;
+  }
+
+  .product:nth-child(1),
+  .product:nth-child(2) {
+    margin-top: 135px;
+  }
+
+  .product:nth-child(3),
+  .product:nth-child(4),
+  .product:nth-child(5),
+  .product:nth-child(6),
+  .product:nth-child(7),
+  .product__more {
+    margin-top: 140px;
+  }
+
+  .product:nth-child(odd) {
+    margin-right: 49px;
+  }
+
+  .product:nth-child(7) {
+    margin-right: 59px;
   }
 
   .product__wrap {
     display: flex;
     flex-direction: column;
+  }
+
+  .product__box {
+    margin-top: 20px;
+    margin-left: 90px;
   }
 
   .product__image,
@@ -91,11 +153,30 @@
     line-height: 20px;
     width: 130px;
     text-align: center;
+    margin-top: 20px;
+    margin-left: 31px;
   }
 
   .product__table {
     font-size: 16px;
     line-height: 16px;
+    width: 250px;
+    display: flex;
+    margin-top: 21px;
+    margin-left: 52px;
+  }
+
+  .product__table tbody {
+    width: 250px;
+    margin-left: -82px;
+  }
+
+  .product__table tr:nth-child(2) {
+    margin-top: 15px;
+  }
+
+  .product__table tr:nth-child(3) {
+    margin-top: 15px;
   }
 
   .product__more {
@@ -104,43 +185,106 @@
     height: 430px;
   }
 
+  .product__plus {
+    display: block;
+    margin-top: 76px;
+  }
+
   .product__subtitle {
     font-size: 20px;
     line-height: 20px;
     width: 142px;
     margin: 0 auto;
+    margin-top: 71px;
   }
 
   .product__text {
     font-size: 16px;
     width: 174px;
     margin: 0 auto;
+    margin-top: 26px;
+  }
+
+  .product__button {
+    width: 249px;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+
+  .product__button-more {
+    width: 249px;
+    margin-top: 89px;
   }
 }
 
 @media (min-width: $desktop-width) {
+  .page-catalog__tagline {
+    margin-top: 22px;
+  }
+
+  .product-group {
+    margin-top: 168px;
+  }
+
+  .product:nth-child(1),
+  .product:nth-child(2),
+  .product:nth-child(3),
+  .product:nth-child(4),
+  .product:nth-child(5),
+  .product:nth-child(6),
+  .product:nth-child(7),
+  .product__more,
+  .product:nth-child(odd) {
+    margin: 0;
+  }
+
   .product {
     width: 245px;
-    margin-left: 80px;
+    margin-right: 0;
+    margin-left: 89px;
     background-color: #f2f2f2;
+  }
+
+  .product:nth-child(2),
+  .product:nth-child(3),
+  .product:nth-child(4),
+  .product:nth-child(6),
+  .product:nth-child(7) {
+    margin-left: 80px;
+  }
+
+  .product:nth-child(5),
+  .product:nth-child(6),
+  .product:nth-child(7),
+  .product__more {
+    margin-top: 143px;
+  }
+
+  .product__title {
+    margin-left: -10px;
   }
 
   .product:nth-child(1),
   .product:nth-child(5) {
-    margin-left: 110px;
+    margin-left: 90px;
+  }
+
+  .product__table tbody {
+    width: 171px;
   }
 
   .product__button {
-    margin-left: 0;
+    margin: 0 auto;
+    margin-top: 40px;
     width: 169px;
     height: 40px;
   }
 
   .product__more {
-    width: 241px;
+    width: 243px;
     height: 428px;
-    margin-left: auto;
-    margin-right: 110px;
+    margin-left: 80px;
+    margin-right: 0;
   }
 
   .product__button-more {

@@ -1,8 +1,18 @@
+.about {
+  margin-bottom: 42px;
+}
+
 .about__title {
   font-size: 36px;
   line-height: 60px;
   text-align: left;
+  margin: 0;
   margin-left: 20px;
+  margin-bottom: 28px;
+}
+
+.about__wrap {
+  margin-top: 0;
 }
 
 .about__description {
@@ -17,6 +27,7 @@
   width: 60px;
   height: 60px;
   background-color: #68b738;
+  margin-right: 21px;
 }
 
 .about__text {
@@ -26,33 +37,34 @@
   color: #444444;
   width: 200px;
   margin: 0;
+  padding: 0;
+  margin-top: 2px;
   text-align: left;
-  margin-left: 10px;
 }
 
 .about__image--substance {
-  background-image: url("../../img/advantage-leaf@1x.png");
+  background-image: url("../img/advantage-leaf@1x.png");
   background-size: 50px 50px;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .about__image--cook {
-  background-image: url("../../img/advantage-dining@1x.png");
+  background-image: url("../img/advantage-powder@1x.png");
   background-size: 50px 50px;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .about__image--use {
-  background-image: url("../../img/advantage-powder@1x.png");
+  background-image: url("../img/advantage-dining@1x.png");
   background-size: 50px 50px;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .about__image--time {
-  background-image: url("../../img/advantage-clock@1x.png");
+  background-image: url("../img/advantage-clock@1x.png");
   background-size: 50px 50px;
   background-position: center;
   background-repeat: no-repeat;
@@ -62,6 +74,8 @@
   .about__title {
     font-size: 60px;
     line-height: 60px;
+    margin-top: 45px;
+    margin-left: 30px;
   }
 
   .about__wrap {
@@ -71,25 +85,46 @@
   }
 
   .about__description {
-    width: 339px;
+    width: 384px;
     height: 232px;
     display: block;
     margin: 0;
   }
 
+  .about__description:nth-child(1) {
+    margin-bottom: 83px;
+  }
+
+  .about__image {
+    width: 80px;
+    height: 80px;
+    margin-top: 44px;
+    margin-left: 30px;
+  }
+
   .about__text {
     margin: 0;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 19px;
+    margin-top: 34px;
+    width: 250px;
   }
 }
 
 @media (min-width: $desktop-width) {
+  .about {
+    margin-bottom: 0;
+  }
+
   .about__title {
     margin-left: 110px;
     text-align: left;
   }
 
   .about__wrap {
-    margin-left: 88px;
+    margin-left: 20px;
+    margin-top: 24px;
   }
 
   .about__description {

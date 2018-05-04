@@ -9,7 +9,7 @@ body {
   width: 320px;
   text-align: center;
   background-color: #ffffff;
-  outline: 1px solid #333333;
+  //outline: 1px solid #333333;
 }
 
 a {
@@ -43,15 +43,16 @@ input[type="radio"].visually-hidden {
   }
 }
 
+@import "blocks/button.scss";
+@import "blocks/main-navigation.scss";
 @import "blocks/about.scss";
 @import "blocks/banner.scss";
-@import "blocks/button.scss";
 @import "blocks/choice.scss";
+@import "blocks/contacts.scss";
 @import "blocks/example-group.scss";
 @import "blocks/extra-product.scss";
 @import "blocks/form.scss";
 @import "blocks/invite.scss";
-@import "blocks/main-navigation.scss";
 @import "blocks/map.scss";
 @import "blocks/page-catalog.scss";
 @import "blocks/page-footer.scss";

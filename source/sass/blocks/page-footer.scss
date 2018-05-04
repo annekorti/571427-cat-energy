@@ -4,22 +4,40 @@
 
 .page-footer__cat-energy {
   width: 320px;
-  background-image: url("../../img/logo-footer.svg");
-  background-repeat: no-repeat;
-  background-position: center;
+  background: url("../img/logo-footer.svg") center no-repeat;
   background-size: 128px 24px;
-  height: 94px;
+  min-height: 94px;
 }
 
-.page-footer__invite--background-grey {
-  background-color: #f2f2f2;
+.page-footer__contacts {
+  font-family: "Arial", "Tahoma", sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 20px;
+  padding-bottom: 3px;
+}
+
+.page-footer--catalog-margin {
+  margin-top: 35px;
+}
+
+.page-footer--form-margin {
+  margin-top: 31px;
 }
 
 @media (min-width: $tablet-width) {
+  .page-footer {
+    padding-bottom: 30px;
+  }
+
   .page-footer__wrap {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    min-height: 150px;
   }
 
   .page-footer__contacts {

@@ -47,7 +47,7 @@
 }
 
 .form__block:nth-child(6) .form__list {
-  margin-bottom: 38px;
+  margin-bottom: 36px;
 }
 
 .form__list {
@@ -144,19 +144,19 @@
 }
 
 .form__item-radio:nth-child(1) {
-  margin-left: 46px;
+  margin-left: 0;
   margin-top: 0;
   margin-bottom: 24px;
 }
 
 .form__item-radio:nth-child(2) {
-  margin-left: 46px;
+  margin-left: 0;
   margin-top: 0;
   margin-bottom: 24px;
 }
 
 .form__item-radio:nth-child(3) {
-  margin-left: 46px;
+  margin-left: 0;
   margin-top: 0;
   margin-bottom: 24px;
 }
@@ -190,7 +190,7 @@
 }
 
 .form__item-checkbox {
-  margin-left: 46px;
+  margin-left: 0;
   margin-top: 0;
 }
 
@@ -260,7 +260,7 @@
 .form__button {
   padding: 0;
   margin: 0;
-  margin-bottom: 23px;
+  margin-bottom: 22px;
 }
 
 .form__footnote {
@@ -376,20 +376,20 @@
   }
 
   .form__item-radio:nth-child(1) {
-    margin-top: 33px;
-    margin-left: 86px;
-    margin-bottom: 31px;
+    margin-top: 34px;
+    margin-left: 27px;
+    margin-bottom: 32px;
   }
 
   .form__item-radio:nth-child(2) {
     margin-top: 0;
-    margin-left: 86px;
-    margin-bottom: 31px;
+    margin-left: 27px;
+    margin-bottom: 32px;
   }
 
   .form__item-radio:nth-child(3) {
     margin-top: 0;
-    margin-left: 86px;
+    margin-left: 27px;
   }
 
   .form__subtitle {
@@ -528,7 +528,7 @@
   }
 
   .form__block:nth-child(6) .form__item:nth-child(1) {
-    margin-left: 57px;
+    margin-left: 0;
     margin-top: 0;
     margin-right: 56px;
     margin-bottom: 51px;
@@ -544,7 +544,7 @@
   }
 
   .form__block:nth-child(6) .form__item:nth-child(3) {
-    margin-left: 57px;
+    margin-left: 0;
     margin-top: 0;
     margin-right: 56px;
     margin-bottom: 0;
@@ -679,7 +679,7 @@
 
   .form__block:nth-child(6) .form__item-checkbox:nth-child(1) {
     margin-top: 0;
-    margin-left: 59px;
+    margin-left: 0;
     margin-right: 36px;
     margin-bottom: 0;
   }
@@ -722,6 +722,10 @@
     }
   }
 
+  .form__block:nth-child(5) {
+    margin-bottom: 65px;
+  }
+
   .form__block:nth-child(5) .form__subtitle {
     margin-bottom: 73px;
 
@@ -741,7 +745,8 @@
   }
 
   .form__block:nth-child(6) .form__subtitle {
-    margin-top: 65px;
+    margin-top: 0;
+    margin-bottom: 66px;
 
     &::after {
       width: 1078px;

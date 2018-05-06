@@ -182,21 +182,21 @@
   .example-group {
     background: none;
     margin-top: 0;
-    min-height: 274px;
+    min-height: 596px;
   }
 
   .example {
-    height: 639px;
+    height: auto;
     margin-bottom: -1px;
   }
 
   .example__title {
     margin: 0;
-    margin-left: 100px;
+    margin-left: 110px;
   }
 
   .example__wrapper {
-    width: 610px;
+    min-height: 596px;
   }
 
   .example__wrapping {
@@ -219,8 +219,10 @@
 
   .example__description {
     width: 436px;
-    padding-top: 49px;
-    padding-left: 0;
+    padding: 0;
+    margin-top: 73px;
+    margin-bottom: 86px;
+    margin-left: 0;
   }
 
   .example__box {
@@ -235,7 +237,8 @@
 
   .example__wrap {
     margin-left: 0;
-    margin-top: 36px;
+    margin-top: 0;
+    margin-bottom: 15px;
   }
 
   .example__text {
@@ -249,7 +252,6 @@
     width: auto;
     text-align: left;
     margin: 0;
-    margin-top: 45px;
   }
 
   .example__slider {

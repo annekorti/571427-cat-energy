@@ -137,7 +137,8 @@
 @media (min-width: $desktop-width) {
   .choice {
     display: flex;
-    margin-top: 93px;
+    margin-top: 0;
+    margin-bottom: 27px;
   }
 
   .choice__block {
@@ -156,6 +157,8 @@
 
   .choice__wrap {
     display: flex;
+    margin-top: 21px;
+    margin-bottom: 40px;
   }
 
   .choice__image {
@@ -164,26 +167,28 @@
     height: 100px;
     margin-top: 25px;
     margin-left: 30px;
+    margin-right: 62px;
   }
 
   .choice__title {
     font-size: 36px;
     line-height: 37px;
-    margin-left: 61px;
+    margin-left: 0;
     margin-top: 21px;
   }
 
   .choice__text {
     font-size: 16px;
     line-height: 24px;
+    margin-top: 0;
+    margin-bottom: 31px;
   }
 
-  .choice__text:nth-child(2) {
-    width: 463px;
-    margin-top: 21px;
+  .choice__block:nth-child(2) .choice__text {
+    width: 445px;
   }
 
   .choice__link {
-    padding-top: 14px;
+    padding: 0;
   }
 }

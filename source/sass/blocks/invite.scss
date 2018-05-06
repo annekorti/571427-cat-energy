@@ -37,15 +37,16 @@
 @media (min-width: $tablet-width) {
   .invite {
     justify-content: space-between;
-    padding: 0 30px;
-    padding-bottom: 44px;
+    padding: 0;
+    min-height: 198px;
+    margin-left: 69px;
+    margin-right: 72px;
   }
 
   .invite__text {
     font-size: 20px;
     line-height: 25px;
-    margin-left: 40px;
-    margin-top: 0;
+    margin: 0;
   }
 
   .invite__address {
@@ -53,8 +54,7 @@
     line-height: 20px;
     width: 164px;
     text-align: right;
-    margin-right: 40px;
-    margin-top: 0;
+    margin: 0;
   }
 }
 
@@ -68,6 +68,7 @@
     background-color: #ffffff;
     padding: 0;
     justify-content: space-around;
+    margin: 0;
   }
 
   .invite__text {

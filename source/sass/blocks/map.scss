@@ -6,6 +6,12 @@
   height: 362px;
 }
 
+@media (min-width: $tablet-width) {
+  .map {
+    height: 396px;
+  }
+}
+
 @media (min-width: $desktop-width) {
   .map {
     width: 1440px;

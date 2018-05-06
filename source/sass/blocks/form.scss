@@ -582,6 +582,10 @@
 }
 
 @media (min-width: $desktop-width) {
+  .form {
+    margin-bottom: 59px;
+  }
+
   .form__title,
   .form__text {
     margin-left: 110px;
@@ -593,15 +597,19 @@
 
   .form__wrapper {
     display: flex;
-    margin-top: 23px;
+    margin-top: 0;
+    margin-bottom: 68px;
   }
 
   .form__wrapper .form__block {
     margin-left: 110px;
+    margin-bottom: 0;
+    margin-right: 80px;
   }
 
   .form__wrapper .form__list:nth-child(1) {
     margin-left: 0;
+    margin-bottom: 0;
   }
 
   .form__item:nth-child(1) input {
@@ -609,7 +617,7 @@
   }
 
   .form__item:nth-child(2) input {
-    width: 456px;
+    width: 455px;
   }
 
   .form__item:nth-child(3) input {
@@ -627,14 +635,14 @@
   .form__block:nth-child(2) {
     width: 568px;
     height: 194px;
-    margin-left: auto;
     margin-right: 110px;
-    margin-top: 40px;
+    margin-top: 0;
+    margin-left: 0;
   }
 
   .form__block:nth-child(4) {
     margin-top: 0;
-    margin-bottom: 63px;
+    margin-bottom: 46px;
   }
 
   .form__block:nth-child(4) .form__subtitle {
@@ -645,16 +653,8 @@
     display: flex;
   }
 
-  .form__block:nth-child(4) .form__label:nth-child(1) {
-    margin-right: 17px;
-  }
-
-  .form__block:nth-child(4) .form__label:nth-child(2) {
-    margin-right: 11px;
-  }
-
   .form__item-contact:nth-child(1) input {
-    margin-left: 20px;
+    margin-left: 0;
     width: 464px;
     background-position: 448px;
   }
@@ -665,7 +665,7 @@
   }
 
   .form__item-contact:nth-child(2) input {
-    margin-left: 15px;
+    margin-left: 0;
     width: 451px;
     background-position: 432px;
   }
@@ -677,18 +677,21 @@
   }
 
 
+  .form__block:nth-child(6) .form__item-checkbox:nth-child(1) {
+    margin-top: 0;
+    margin-left: 59px;
+    margin-right: 36px;
+    margin-bottom: 0;
+  }
+
   .form__block:nth-child(6) .form__item-checkbox:nth-child(2) {
-    margin-left: 38px;
+    margin: 0;
+    margin-right: 37px;
   }
 
   .form__block:nth-child(6) .form__item-checkbox:nth-child(3) {
-    margin-left: 37px;
-    margin-top: 37px;
-  }
-
-  .form__block:nth-child(6) .form__item-checkbox:nth-child(4) {
-    margin-left: 37px;
-    margin-top: 38px;
+    margin: 0;
+    margin-right: 37px;
   }
 
   .form__wrap {
@@ -699,6 +702,7 @@
     width: 568px;
     height: 52px;
     margin-left: 110px;
+    margin-right: 1px;
   }
 
   .form__footnote {
@@ -719,6 +723,8 @@
   }
 
   .form__block:nth-child(5) .form__subtitle {
+    margin-bottom: 73px;
+
     &::after {
       width: 1111px;
     }
@@ -727,6 +733,11 @@
       left: -110px;
       width: 70px;
     }
+  }
+
+  .form__block:nth-child(6) {
+    margin-top: 0;
+    margin-bottom: 70px;
   }
 
   .form__block:nth-child(6) .form__subtitle {
@@ -740,5 +751,13 @@
       left: -110px;
       width: 70px;
     }
+  }
+
+  .form__item-contact:nth-child(1) label {
+    margin-right: 20px;
+  }
+
+  .form__item-contact:nth-child(2) label {
+    margin-right: 15px;
   }
 }

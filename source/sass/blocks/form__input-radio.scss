@@ -26,7 +26,7 @@
     content: "";
     position: absolute;
     top: 50%;
-    left: 9px;
+    left: 10px;
 
     display: block;
     width: 12px;
@@ -40,10 +40,6 @@
 
 
 @media (min-width: $tablet-width) {
-  //.form__input-radio {
-  //  margin-bottom: 33px;
-  //}
-
   .form__input-radio + label {
     padding-left: 60px;
 
@@ -55,7 +51,7 @@
 
   .form__input-radio:checked + label {
     &::after {
-      left: 11px;
+      left: 12px;
 
       width: 18px;
       height: 18px;

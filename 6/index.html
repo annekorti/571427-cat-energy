@@ -15,17 +15,17 @@
     <picture>
       <source media="(min-width: 1440px)" srcset="img/logo-desktop.svg">
       <source media="(min-width: 768px)" srcset="img/logo-tablet.svg">
-      <img class="page-header__logo-image" src="img/logo-mobile.svg" width="191" height="38" alt="КэтЭнерджи логотип">
+      <img class="page-header__logo-image" src="img/logo-mobile.svg" alt="КэтЭнерджи логотип">
     </picture>
   </a>
   <nav class="main-navigation">
     <button class="main-navigation__toggle" type="button">Открыть меню</button>
     <div class="main-navigation__wrapper">
       <ul class="main-navigation__list">
-        <li class="main-navigation__item main-navigation__item--active">Главная</li>
-        <li class="main-navigation__item"><a class="main-navigation__link" href="catalog.html">Каталог продукции</a>
+        <li class="main-navigation__item main-navigation__item--active main-navigation__item--index-white">Главная</li>
+        <li class="main-navigation__item main-navigation__item--index-white"><a class="main-navigation__link" href="catalog.html">Каталог продукции</a>
         </li>
-        <li class="main-navigation__item"><a class="main-navigation__link" href="form.html">Подбор программы</a></li>
+        <li class="main-navigation__item main-navigation__item--index-white"><a class="main-navigation__link" href="form.html">Подбор программы</a></li>
       </ul>
     </div>
   </nav>
@@ -38,7 +38,9 @@
         <h2 class="banner__title title">Функциональное питание для котов</h2>
         <p class="banner__text">Занялся собой? Займись котом!</p>
       </div>
-      <div class="banner__image"></div>
+      <div class="banner__envelope">
+        <div class="banner__image"></div>
+      </div>
     </div>
     <!--<img class="banner__image" src="img/index-screen-combine.jpg" width="320" height="469" alt="Корм">-->
     <a class="button banner__button" href="#">Подобрать программу</a>

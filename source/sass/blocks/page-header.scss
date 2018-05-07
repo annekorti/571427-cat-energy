@@ -20,6 +20,8 @@
   }
 
   .page-header__logo {
+    margin-left: 10px;
+    margin-top: 8px;
     align-self: center;
   }
 
@@ -33,5 +35,11 @@
   .page-header {
     justify-content: space-between;
     margin: 0 110px;
+  }
+
+  .page-header__logo {
+    width: 210px;
+    margin-left: 12px;
+    margin-top: 8px;
   }
 }

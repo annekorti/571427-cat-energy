@@ -99,6 +99,19 @@
     right: 42px;
   }
 
+  .choice__cat:nth-child(1) {
+    width: 140px;
+    height: 194px;
+    position: absolute;
+    top: -12px;
+  }
+
+  .choice__block:nth-child(2) .choice__cat {
+    width: 268px;
+    height: 112px;
+    top: auto;
+  }
+
   .choice__title {
     font-size: 36px;
     line-height: 37.02px;
@@ -168,6 +181,25 @@
     margin-top: 25px;
     margin-left: 30px;
     margin-right: 62px;
+  }
+
+  .choice__image:nth-child(1) {
+    position: relative;
+    top: auto;
+    right: auto;
+  }
+
+  .choice__image:nth-child(1) .choice__cat {
+    width: 70px;
+    height: 97px;
+    position: absolute;
+    top: -6px;
+  }
+
+  .choice__block:nth-child(2) .choice__cat {
+    width: 134px;
+    height: 56px;
+    position: static;
   }
 
   .choice__title {

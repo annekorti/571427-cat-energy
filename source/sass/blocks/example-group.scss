@@ -71,7 +71,7 @@
 
   &::before {
     content: "";
-    height: 1px;
+    height: 5px;
     width: 88px;
     position: absolute;
     background-color: #f2f2f2;
@@ -110,7 +110,7 @@
 @media (min-width: $tablet-width) {
   .example-group {
     margin-top: 102px;
-    min-height: 1081px;
+    min-height: 1041px;
     background: none;
   }
 

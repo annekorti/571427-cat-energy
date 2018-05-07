@@ -9,6 +9,10 @@
   color: #ffffff;
   //margin-bottom: 197px;
   position: relative;
+
+  @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+    background-image: url("../img/index-background-mobile@2x.jpg");
+  }
 }
 
 .banner__title {
@@ -37,6 +41,10 @@
   height: 271px;
   //background-position: center;
   margin: 0;
+
+  @media (min-resolution: $retina-dppx), (min-resolution: $retina-dpi) {
+    background-image: url("../img/index-can-mobile@2x.png");
+  }
 }
 
 .banner__button {
@@ -89,6 +97,17 @@
     position: absolute;
     top: 269px;
   }
+
+  .banner__image {
+    background-image: url("../img/index-can-tablet@1x.jpg");
+    background-size: 709px 609px;
+    height: 609px;
+    margin-top: -10px;
+
+    @media (min-resolution: $retina-dppx), (min-resolution: $retina-dpi) {
+      background-image: url("../img/index-can-tablet@2x.jpg");
+    }
+  }
 }
 
 @media (min-width: $desktop-width) {
@@ -102,6 +121,10 @@
     margin-bottom: 54px;
   }
 
+  //.banner_wrapper {
+  //  display: flex;
+  //}
+
   .banner__title,
   .banner__text {
     color: #000000;
@@ -112,6 +135,11 @@
     margin-top: 55px;
     margin-bottom: 40px;
     padding: 0;
+  }
+
+  .banner__image {
+    background-image: none;
+    //background-image: url("../img/index-can-desktop@1x.png");
   }
 
   .banner__text {

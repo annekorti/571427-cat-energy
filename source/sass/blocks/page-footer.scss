@@ -7,6 +7,33 @@
   background: url("../img/logo-footer.svg") center no-repeat;
   background-size: 128px 24px;
   min-height: 94px;
+  position: relative;
+
+  &::after {
+    content: "";
+    width: 280px;
+    height: 1px;
+    background-color: #d9d9d9;
+    position: absolute;
+    display: block;
+    top: 93px;
+    left: 20px;
+  }
+}
+
+.page-footer__social {
+  position: relative;
+
+  &::after {
+    content: "";
+    width: 280px;
+    height: 1px;
+    background-color: #d9d9d9;
+    position: absolute;
+    display: block;
+    top: 62px;
+    left: 20px;
+  }
 }
 
 .page-footer__contacts {
@@ -30,6 +57,18 @@
 }
 
 @media (min-width: $tablet-width) {
+  .page-footer__cat-energy {
+    &::after {
+      display: none;
+    }
+  }
+
+  .page-footer__social {
+    &::after {
+      display: none;
+    }
+  }
+
   .page-footer {
     padding-bottom: 30px;
   }

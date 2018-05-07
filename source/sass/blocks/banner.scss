@@ -112,18 +112,19 @@
 
 @media (min-width: $desktop-width) {
   .banner {
-    width: 420px;
+    width: 1250px;
     position: relative;
     background: none;
     margin-left: 190px;
     text-align: left;
     min-height: 500px;
-    margin-bottom: 54px;
+    margin-bottom: 108px;
   }
 
-  //.banner_wrapper {
-  //  display: flex;
-  //}
+  .banner_wrapper {
+    display: flex;
+    position: relative;
+  }
 
   .banner__title,
   .banner__text {
@@ -137,9 +138,25 @@
     padding: 0;
   }
 
+  .banner__envelope {
+    background-image: url("../img/index-background-desktop@1x.jpg");
+    background-size: 720px 696px;
+    position: absolute;
+    right: 0;
+    top: -168px;
+    width: 720px;
+    height: 696px;
+  }
+
   .banner__image {
-    background-image: none;
-    //background-image: url("../img/index-can-desktop@1x.png");
+    background-image: url("../img/index-can-desktop@1x.png");
+    width: 552px;
+    height: 499px;
+    background-size: 552px 499px;
+    position: absolute;
+    margin: 0;
+    left: -160px;
+    top: 142px;
   }
 
   .banner__text {
@@ -148,6 +165,6 @@
 
   .banner__button {
     margin: 0;
-    top: 233px;
+    top: 288px;
   }
 }

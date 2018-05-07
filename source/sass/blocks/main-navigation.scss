@@ -19,6 +19,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  border-left: none;
+  border-right: none;
 }
 
 .main-navigation__item a {
@@ -94,6 +96,11 @@
     padding: 0;
     font-size: 20px;
     line-height: 25px;
+  }
+
+  .main-navigation__item--index-white a,
+  .main-navigation__item--index-white {
+    color: #ffffff;
   }
 
   .main-navigation__item:nth-child(1) {

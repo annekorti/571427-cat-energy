@@ -1,3 +1,32 @@
 .contacts {
   min-height: 84px;
 }
+
+.contacts__text {
+  margin: 0;
+}
+
+@media (min-width: $tablet-width) {
+  .contacts {
+    width: auto;
+    margin: 0;
+    margin-right: -8px;
+  }
+
+  .contacts__text {
+    margin: 0;
+    margin-right: 16px;
+    margin-top: -10px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .contacts {
+    padding-top: 10px;
+    padding-bottom: 0;
+  }
+
+  .contacts__text {
+    width: 115px;
+  }
+}

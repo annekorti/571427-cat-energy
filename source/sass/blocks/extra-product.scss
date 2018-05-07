@@ -167,6 +167,7 @@
     margin-top: 22px;
     background-size: 708px 200px;
     background-image: url("../img/gift-photo-tablet@1x.jpg");
+    position: relative;
 
     @media (min-resolution: $retina-dppx), (min-resolution: $retina-dpi) {
       background-image: url("../img/gift-photo-tablet@2x.jpg");
@@ -175,9 +176,13 @@
     &::before {
       background-image: url("../img/icon-gift.svg");
       background-size: 55px 60px;
-      background-position: center 66px;
       background-repeat: no-repeat;
       content: "";
+      width: 55px;
+      height: 60px;
+      position: absolute;
+      top: 109px;
+      left: 121px;
     }
   }
 
@@ -220,6 +225,11 @@
     height: 289px;
     background-size: 245px 289px;
     background-image: url("../img/gift-photo-desktop@1x.jpg");
+
+    &::before {
+      top: 65px;
+      left: 96px;
+    }
 
     @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
       background-image: url("../img/gift-photo-desktop@2x.jpg");

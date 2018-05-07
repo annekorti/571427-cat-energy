@@ -3,11 +3,18 @@
 }
 
 .page-footer__cat-energy {
-  width: 320px;
-  background: url("../img/logo-footer.svg") center no-repeat;
-  background-size: 128px 24px;
-  min-height: 94px;
+  margin: 0;
+  padding-top: 38px;
+  margin-bottom: 29px;
   position: relative;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
 
   &::after {
     content: "";
@@ -58,6 +65,9 @@
 
 @media (min-width: $tablet-width) {
   .page-footer__cat-energy {
+    width: 128px;
+    margin-top: -8px;
+
     &::after {
       display: none;
     }
@@ -70,24 +80,35 @@
   }
 
   .page-footer {
-    padding-bottom: 30px;
+    padding-bottom: 0;
   }
 
   .page-footer__wrap {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-height: 150px;
+    flex-direction: row;
+    width: 708px;
+    padding-top: 31px;
+    padding-bottom: 27px;
+    margin-left: 30px;
   }
 
   .page-footer__contacts {
     display: flex;
     align-items: center;
+    width: auto;
+    margin: 0;
   }
 }
 
 @media (min-width: $desktop-width) {
   .page-footer {
     position: relative;
+  }
+
+  .page-footer__wrap {
+    margin-left: 110px;
+    margin-right: 110px;
   }
 }

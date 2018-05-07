@@ -11,7 +11,11 @@
 <body>
 <header class="page-header">
   <a class="page-header__logo" href="index.html">
-    <img class="page-header__logo-image" src="img/logo-mobile.svg" width="191" height="65" alt="КэтЭнерджи логотип">
+    <picture>
+      <source media="(min-width: 1440px)" srcset="img/logo-desktop.svg">
+      <source media="(min-width: 768px)" srcset="img/logo-tablet.svg">
+      <img class="page-header__logo-image" src="img/logo-mobile.svg" width="191" height="38" alt="КэтЭнерджи логотип">
+    </picture>
   </a>
   <nav class="main-navigation">
     <button class="main-navigation__toggle" type="button">Открыть меню</button>
@@ -49,7 +53,8 @@
       <div class="form__block">
         <ul class="form__list">
           <li class="form__item form__item-radio">
-            <input class="visually-hidden form__input-radio" type="radio" id="weight-down" name="choose" value="lift-down" checked>
+            <input class="visually-hidden form__input-radio" type="radio" id="weight-down" name="choose"
+                   value="lift-down" checked>
             <label class="form__label" for="weight-down">Похудение</label>
           </li>
           <li class="form__item form__item-radio">

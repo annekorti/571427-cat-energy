@@ -765,4 +765,15 @@
   .form__item-contact:nth-child(2) label {
     margin-right: 15px;
   }
+
+  .form__item-checkbox,
+  .form__item-radio {
+    &:hover {
+      opacity: 0.8;
+    }
+
+    &:active {
+      opacity: 0.6;
+    }
+  }
 }

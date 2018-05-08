@@ -39,7 +39,7 @@
 
 .form__block:nth-child(4) .form__subtitle {
   margin-top: 0;
-  margin-bottom: 35px;
+  margin-bottom: 32px;
 }
 
 .form__block:nth-child(6) {
@@ -63,10 +63,6 @@
 
 .form__block:nth-child(4) .form__item:nth-child(2) {
   margin-top: 0;
-}
-
-.form__item-contact {
-  margin-bottom: 13px;
 }
 
 .form__item {
@@ -164,21 +160,37 @@
 .form__item-contact:nth-child(1) input {
   width: 203px;
   margin-left: 0;
-  background: url("../img/icon-mail.svg") no-repeat center / cover;
-  background-size: 18px 18px;
-  content: "";
-  background-position: 184px;
+  //background: url("../img/icon-mail.svg") no-repeat center / cover;
+  //background-size: 18px 18px;
+  //content: "";
+  //background-position: 184px;
   margin-bottom: 0;
 }
 
 .form__item-contact:nth-child(2) input {
   width: 187px;
   margin-left: 0;
-  background: url("../img/icon-phone.svg") no-repeat center / cover;
-  background-size: 20px 20px;
-  content: "";
-  background-position: 170px;
+  //background: url("../img/icon-phone.svg") no-repeat center / cover;
+  //background-size: 20px 20px;
+  //content: "";
+  //background-position: 170px;
   margin-top: 0;
+}
+
+.form__item-contact {
+  margin-bottom: 13px;
+  position: relative;
+}
+
+.form__item-contact svg {
+  position: absolute;
+  top: 17px;
+  right: 35px;
+}
+
+.form__item-contact:nth-child(2) svg {
+  top: 13px;
+  right: 33px;
 }
 
 .form__item-contact:nth-child(1) label {
@@ -503,6 +515,16 @@
     background-position: 497px;
   }
 
+  .form__item-contact svg {
+    top: 21px;
+    right: 85px;
+  }
+
+  .form__item-contact:nth-child(2) svg {
+    top: 17px;
+    right: 83px;
+  }
+
   .form__block:nth-child(5) {
     margin-bottom: 50px;
   }
@@ -668,6 +690,15 @@
     margin-left: 0;
     width: 451px;
     background-position: 432px;
+  }
+
+  .form__item-contact svg {
+    top: 20px;
+    right: 19px;
+  }
+
+  .form__item-contact:nth-child(2) svg {
+    right: 19px;
   }
 
   .form__comment {

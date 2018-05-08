@@ -122,6 +122,16 @@
   .main-navigation__item--index-white a,
   .main-navigation__item--index-white {
     color: #ffffff;
+
+    &:hover {
+      color: #ffffff;
+      opacity: 0.8;
+    }
+
+    &:active {
+      color: #ffffff;
+      opacity: 0.6;
+    }
   }
 
   .main-navigation__item:nth-child(1) {

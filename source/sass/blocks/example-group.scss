@@ -279,6 +279,15 @@
     border-bottom: 1px dotted #bebebe;
     padding-bottom: 6px;
     margin-right: 22px;
+    cursor: pointer;
+
+    &:hover {
+      border-bottom: 1px solid #bebebe;
+    }
+
+    &:active {
+      border: none;
+    }
   }
 
   .example__slider-block {
@@ -309,6 +318,14 @@
       border-radius: 50%;
       left: 212px;
       position: absolute;
+    }
+
+    &:hover::before {
+      box-shadow: 0 2px 1px 1px #c1c1c1;
+    }
+
+    &:active::before {
+      border: 1px solid #68b738;
     }
   }
 

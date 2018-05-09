@@ -130,12 +130,24 @@
             </div>
           </div>
           <div class="example__slider">
-            <img class="example__image" src="#" alt="кот">
-            <input type="radio" name="weight-cat" id="example-before" value="">
-            <label for="example-before">Было</label>
-            <input type="radio" name="weight-cat" id="example-after" value="">
-            <label for="example-after">Стало</label>
-            <div class="example__box"></div>
+            <div class="example__image-wrap">
+              <picture>
+                <source media="(min-width:1300px)" srcset="img/before-desktop@1x.png 1x, img/before-desktop@2x.png 2x">
+                <source media="(min-width:768px)" srcset="img/before-tablet@1x.png 1x, img/before-tablet@2x.png 2x">
+                <img class="product__image" src="img/before-mobile@1x.png" srcset="img/before-mobile@2x.png 2x" alt="Кот было">
+              </picture>
+            </div>
+            <div class="example__slider-wrap">
+              <p class="example__slider-text">Было</p>
+              <div class="example__slider-block"></div>
+              <p class="example__slider-text">Стало</p>
+            </div>
+            <!--<img class="example__image" src="#" alt="кот">-->
+            <!--<input type="radio" name="weight-cat" id="example-before" value="">-->
+            <!--<label for="example-before">Было</label>-->
+            <!--<input type="radio" name="weight-cat" id="example-after" value="">-->
+            <!--<label for="example-after">Стало</label>-->
+            <!--<div class="example__box"></div>-->
           </div>
         </div>
       </div>

@@ -1347,7 +1347,8 @@ input[type="radio"].visually-hidden {
       background-color: #ffffff;
       border-radius: 50%;
       top: -14px;
-      left: 198px; }
+      left: 198px;
+      cursor: pointer; }
     .example__slider-block::after {
       content: "";
       display: block;
@@ -1356,7 +1357,8 @@ input[type="radio"].visually-hidden {
       background-color: #68b738;
       border-radius: 50%;
       left: 212px;
-      position: absolute; }
+      position: absolute;
+      cursor: pointer; }
     .example__slider-block:hover::before {
       -webkit-box-shadow: 0 2px 1px 1px #c1c1c1;
               box-shadow: 0 2px 1px 1px #c1c1c1; }

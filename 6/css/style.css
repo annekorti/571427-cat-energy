@@ -1326,7 +1326,12 @@ input[type="radio"].visually-hidden {
     margin-left: 99px;
     border-bottom: 1px dotted #bebebe;
     padding-bottom: 6px;
-    margin-right: 22px; }
+    margin-right: 22px;
+    cursor: pointer; }
+    .example__slider-text:hover {
+      border-bottom: 1px solid #bebebe; }
+    .example__slider-text:active {
+      border: none; }
   .example__slider-block {
     margin-top: 372px;
     height: 6px;
@@ -1352,6 +1357,11 @@ input[type="radio"].visually-hidden {
       border-radius: 50%;
       left: 212px;
       position: absolute; }
+    .example__slider-block:hover::before {
+      -webkit-box-shadow: 0 2px 1px 1px #c1c1c1;
+              box-shadow: 0 2px 1px 1px #c1c1c1; }
+    .example__slider-block:active::before {
+      border: 1px solid #68b738; }
   .example__slider-text:nth-child(3) {
     margin-right: 0;
     margin-left: 0; } }

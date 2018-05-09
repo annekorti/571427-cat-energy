@@ -1,5 +1,5 @@
 .example-group {
-  background-color: #f2f2f2;
+  background-color: $gray;
   text-align: left;
 }
 
@@ -74,7 +74,7 @@
     height: 5px;
     width: 88px;
     position: absolute;
-    background-color: #f2f2f2;
+    background-color: $gray;
     top: 54px;
     left: 17px;
     z-index: 1;
@@ -191,7 +191,7 @@
       width: 113px;
       top: 71px;
       left: 23px;
-      background-color: #ffffff;
+      background-color: $white;
     }
   }
 
@@ -215,7 +215,7 @@
 
   .example__slider {
     padding: 0;
-    background-color: #f2f2f2;
+    background-color: $gray;
     height: 462px;
     margin-top: 0;
   }
@@ -235,7 +235,8 @@
 
   .example__title {
     margin: 0;
-    margin-left: 110px;
+    margin-left: 53px;
+    margin-right: 40px;
   }
 
   .example__wrapper {
@@ -244,7 +245,8 @@
 
   .example__wrapping {
     width: 720px;
-    padding-left: 110px;
+    padding-left: 40px;
+    margin-bottom: 0;
   }
 
   .example__subtitle {
@@ -253,23 +255,23 @@
 
     &::before {
       top: 70px;
-      background-color: #f2f2f2;
+      background-color: $gray;
     }
   }
 
   .example__envelope {
-    width: 1440px;
+    width: 1300px;
     display: flex;
-    background-color: #f2f2f2;
+    background-color: $gray;
     margin-top: 72px;
-    height: 463px;
+    min-height: 463px;
   }
 
   .example__description {
     width: 436px;
     padding: 0;
     margin-top: 73px;
-    margin-bottom: 71px;
+    margin-bottom: 68px;
     margin-left: 0;
   }
 

@@ -26,10 +26,11 @@
 
 @media (min-width: $desktop-width) {
   .map {
-    width: 1440px;
+    right: 40px;
+    width: 1300px;
     height: 400px;
     background-image: url("../img/bg-map-desktop@1x.png");
-    background-size: 1440px 400px;
+    background-size: 1300px 400px;
 
     @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
       background-image: url("../img/bg-map-desktop@2x.png");

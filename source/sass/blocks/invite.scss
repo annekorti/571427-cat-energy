@@ -1,7 +1,7 @@
 .invite {
   text-align: left;
   display: flex;
-  background: #f2f2f2;
+  background: $gray;
   padding: 0;
   justify-content: space-around;
   min-height: 114px;
@@ -10,7 +10,7 @@
 }
 
 .invite--background-white {
-  background-color: #ffffff;
+  background-color: $white;
 }
 
 .invite__text {
@@ -71,8 +71,8 @@
     height: 200px;
     position: absolute;
     top: 100px;
-    left: 110px;
-    background-color: #ffffff;
+    left: 40px;
+    background-color: $white;
     padding: 0;
     justify-content: space-around;
     margin: 0;

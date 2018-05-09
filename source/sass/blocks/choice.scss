@@ -3,7 +3,7 @@
 }
 
 .choice__block {
-  background-color: #f2f2f2;
+  background-color: $gray;
   width: 280px;
   height: 266px;
   margin: 0 auto;
@@ -33,7 +33,7 @@
 .choice__image {
   width: 50px;
   height: 51px;
-  background-color: #68b738;
+  background-color: $green;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -66,7 +66,7 @@
   font-size: 16px;
   line-height: 16px;
   text-transform: uppercase;
-  color: #000000;
+  color: $black;
   margin-left: 20px;
   padding: 0;
   display: block;
@@ -175,7 +175,8 @@
   }
 
   .choice__block:nth-child(1) {
-    margin-left: 110px;
+    margin-left: 40px;
+    margin-bottom: 46px;
   }
 
   .choice__block:nth-child(2) {
@@ -219,7 +220,7 @@
   .choice__title {
     font-size: 36px;
     line-height: 37px;
-    margin-left: 0;
+    margin-left: 40px;
     margin-top: 21px;
   }
 

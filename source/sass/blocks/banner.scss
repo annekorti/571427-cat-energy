@@ -6,7 +6,7 @@
   //background-position: top center;
   //background-repeat: no-repeat;
   height: 305px;
-  color: #ffffff;
+  color: $white;
   //margin-bottom: 197px;
   position: relative;
 
@@ -59,7 +59,7 @@
 @media (min-width: $tablet-width) {
   .banner {
     background: none;
-    background-color: #ffffff;
+    background-color: $white;
     min-height: 809px;
     margin-bottom: 40px;
     position: relative;
@@ -72,7 +72,7 @@
     margin-left: 117px;
     text-align: left;
     padding-top: 41px;
-    color: #000000;
+    color: $black;
     margin-bottom: 40px;
   }
 
@@ -82,7 +82,7 @@
     text-align: left;
     padding: 0;
     margin-left: 118px;
-    color: #000000;
+    color: $black;
   }
 
   .banner__button {
@@ -112,10 +112,9 @@
 
 @media (min-width: $desktop-width) {
   .banner {
-    width: 1250px;
     position: relative;
     background: none;
-    margin-left: 190px;
+    margin-left: 120px;
     text-align: left;
     min-height: 500px;
     margin-bottom: 108px;
@@ -128,7 +127,7 @@
 
   .banner__title,
   .banner__text {
-    color: #000000;
+    color: $black;
   }
 
   .banner__title {
@@ -139,13 +138,17 @@
   }
 
   .banner__envelope {
-    background-image: url("../img/index-background-desktop@1x.jpg");
-    background-size: 720px 696px;
+    background-image: url("../img/index-background-desktop@_1x.jpg");
+    background-size: 650px 696px;
     position: absolute;
     right: 0;
     top: -168px;
-    width: 720px;
+    width: 650px;
     height: 696px;
+
+    @media (min-resolution: $retina-dppx), (min-resolution: $retina-dpi) {
+      background-image: url("../img/index-background-desktop@_2x.jpg");
+    }
   }
 
   .banner__image {
@@ -157,6 +160,10 @@
     margin: 0;
     left: -160px;
     top: 142px;
+
+    @media (min-resolution: $retina-dppx), (min-resolution: $retina-dpi) {
+      background-image: url("../img/index-can-desktop@2x.png");
+    }
   }
 
   .banner__text {

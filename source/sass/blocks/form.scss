@@ -284,10 +284,8 @@
   margin: 0;
   padding: 0;
 
-  .form__item input {
-    &:invalid {
-      border: 1px solid #ff8282;
-    }
+  .form__item input:invalid {
+    border: 1px solid #ff8282;
   }
 }
 

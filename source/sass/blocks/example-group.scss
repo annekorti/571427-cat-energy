@@ -307,6 +307,7 @@
       border-radius: 50%;
       top: -14px;
       left: 198px;
+      cursor: pointer;
     }
 
     &::after {
@@ -318,6 +319,7 @@
       border-radius: 50%;
       left: 212px;
       position: absolute;
+      cursor: pointer;
     }
 
     &:hover::before {

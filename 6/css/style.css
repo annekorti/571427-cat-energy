@@ -1564,30 +1564,35 @@ input[type="radio"].visually-hidden {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    height: 71px;
+    min-height: 50px;
     width: 895px;
-    min-height: 71px;
-    padding-bottom: 0; }
+    padding-bottom: 5px;
+    padding-top: 15px; }
   .extra-product__subtitle {
     margin: 0;
+    margin-top: 10px;
     min-width: 325px; }
   .extra-product__text {
     padding: 0;
     min-width: 174px;
-    margin: 0; }
+    margin: 0;
+    margin-top: 13px; }
   .extra-product__quantity {
     min-width: 240px;
-    padding-top: 10px;
-    margin-right: 9px; }
+    margin-right: 9px;
+    padding: 0; }
   .extra-product__button {
     width: 245px;
-    -ms-flex-item-align: center;
-        align-self: center;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
     margin-left: auto;
     margin-top: 0; }
   .extra-product__wrap {
     padding: 0;
-    margin: 0; } }
+    margin: 0;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start; } }
 
 .form__title {
   font-size: 36px;

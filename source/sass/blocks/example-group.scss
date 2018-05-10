@@ -389,6 +389,7 @@
     margin-top: 73px;
     margin-bottom: 68px;
     margin-left: 0;
+    margin-right: 0;
   }
 
   .example__block:nth-child(1) {
@@ -397,6 +398,7 @@
 
   .example__box {
     margin-left: 0;
+    margin-right: 0;
   }
 
   .example__cover {
@@ -431,11 +433,15 @@
 
   .example__slider {
     margin: 0;
-    width: 650px;
+    width: 780px;
+  }
+
+  .example__slider-wrap {
+    margin-left: 57px;
   }
 
   .example__image-wrap img {
-    left: -57px;
+    left: -35px;
     top: -187px;
   }
 

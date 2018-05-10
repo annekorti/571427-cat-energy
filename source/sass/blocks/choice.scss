@@ -104,7 +104,7 @@
 @media (min-width: $tablet-width) {
   .choice__block {
     width: 708px;
-    height: 372px;
+    min-height: 372px;
     position: relative;
   }
 
@@ -234,6 +234,7 @@
     line-height: 37px;
     margin-left: 0;
     margin-top: 21px;
+    margin-right: 0;
   }
 
   .choice__text {

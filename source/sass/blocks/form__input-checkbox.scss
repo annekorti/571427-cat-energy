@@ -1,8 +1,6 @@
 .form__input-checkbox + label {
   position: relative;
-
   padding-left: 45px;
-
   cursor: pointer;
 
   &::before {
@@ -52,5 +50,9 @@
       top: 8px;
       left: 10px;
     }
+  }
+
+  .form__item-checkbox input[type="checkbox"]:focus + label::before {
+    outline: rgb(59, 153, 252) auto 5px;
   }
 }

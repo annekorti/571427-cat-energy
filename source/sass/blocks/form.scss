@@ -50,7 +50,7 @@
 }
 
 .form__block:nth-child(6) {
-  margin-top: 27px;
+  margin-top: 0;
 }
 
 .form__block:nth-child(6) .form__list {
@@ -614,6 +614,11 @@
     margin-left: 0;
     margin-top: 16px;
   }
+
+  .form__block:nth-child(2) label,
+  .form__block:nth-child(6) label {
+    margin-right: 0;
+  }
 }
 
 @media (min-width: $desktop-width) {
@@ -676,7 +681,7 @@
   .form__block:nth-child(2) {
     width: 568px;
     height: 194px;
-    margin-right: 40px;
+    margin-right: 0;
     margin-top: 0;
     margin-left: 0;
   }
@@ -699,11 +704,12 @@
     margin-left: 0;
     width: 464px;
     background-position: 448px;
+    margin-right: 78px;
   }
 
   .form__block:nth-child(4) .form__item:nth-child(2) {
     margin-top: 0;
-    margin-left: 78px;
+    margin-left: 0;
   }
 
   .form__item-contact:nth-child(2) input {
@@ -753,11 +759,11 @@
     width: 568px;
     height: 52px;
     margin-left: 40px;
-    margin-right: 1px;
+    margin-right: 84px;
   }
 
   .form__footnote {
-    margin-left: 84px;
+    margin-left: 0;
   }
 
   .form__subtitle {
@@ -822,20 +828,5 @@
 
   .form__item-contact:nth-child(2) label {
     margin-right: 15px;
-  }
-
-  .form__item-checkbox,
-  .form__item-radio {
-    &:focus {
-      outline: lightblue;
-    }
-
-    &:hover {
-      opacity: 0.8;
-    }
-
-    &:active {
-      opacity: 0.6;
-    }
   }
 }

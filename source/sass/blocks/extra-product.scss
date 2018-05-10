@@ -7,6 +7,7 @@
   line-height: 24px;
   margin: 0 0 0 20px;
   position: relative;
+  margin-bottom: 32px;
 
   &::after {
     display: block;
@@ -23,7 +24,13 @@
 .extra-product__block {
   width: 280px;
   margin: 0 auto;
-  min-height: 128px;
+  min-height: 115px;
+  border-top: 1px solid #d9d9d9;
+  padding-top: 13px;
+}
+
+.extra-product__block:nth-child(4) {
+  border-bottom: 1px solid #d9d9d9;
 }
 
 .extra-product__subtitle {
@@ -43,8 +50,8 @@
 }
 
 .extra-product__column {
-  margin-bottom: 29px;
-  margin-top: 49px;
+  margin-bottom: 39px;
+  margin-top: 0;
 }
 
 .extra-product__box {
@@ -94,6 +101,7 @@
     min-height: 118px;
     border: 1px solid #e6e6e6;
     padding-bottom: 20px;
+    padding-top: 0;
   }
 
   .extra-product__wrap {

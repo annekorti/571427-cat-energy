@@ -20,16 +20,23 @@
 }
 
 .form__wrapper {
-  margin-bottom: 56px;
+  margin-bottom: 29px;
 }
 
 .form__block:nth-child(1) {
-  margin-bottom: 50px;
+  margin-bottom: 21px;
 }
 
 .form__list,
 .form__block:nth-child(2) {
   margin-top: 0;
+}
+
+.form__block:nth-child(2) {
+  border-top: 1px solid #d9d9d9;
+  padding-top: 27px;
+  border-bottom: 1px solid #d9d9d9;
+  padding-bottom: 3px;
 }
 
 .form__block:nth-child(4) {
@@ -346,6 +353,7 @@
     width: 628px;
     height: 194px;
     margin-top: 0;
+    padding: 0;
   }
 
   .form__block:nth-child(1) .form__item:nth-child(2),

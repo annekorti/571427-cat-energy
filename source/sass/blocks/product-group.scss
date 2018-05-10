@@ -130,7 +130,7 @@
     display: block;
     position: absolute;
     left: -20px;
-    top: 174px;
+    top: 182px;
   }
 }
 
@@ -166,6 +166,7 @@
   .product-group {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 66px;
 
     &::before {
       display: none;
@@ -288,6 +289,22 @@
   .product__table tbody {
     width: 250px;
     margin-left: -82px;
+  }
+
+  .product__table tr:nth-child(1),
+  .product__table tr:nth-child(2),
+  .product__table tr:nth-child(3) {
+    position: relative;
+
+    &::after {
+      content: "";
+      display: block;
+      height: 1px;
+      width: 250px;
+      background-color: #d9d9d9;
+      position: absolute;
+      top: 25px;
+    }
   }
 
   .product__table tr:nth-child(2) {
@@ -424,6 +441,14 @@
 
   .product__table tbody {
     width: 171px;
+  }
+
+  .product__table tr:nth-child(1),
+  .product__table tr:nth-child(2),
+  .product__table tr:nth-child(3) {
+    &::after {
+      width: 169px;
+    }
   }
 
   .product__button {

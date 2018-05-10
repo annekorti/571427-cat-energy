@@ -209,7 +209,11 @@
   }
 
   .product:nth-child(odd) {
-    margin-right: 49px;
+    margin-right: 59px;
+  }
+
+  .product:nth-child(even) {
+    margin-left: 0;
   }
 
   .product:nth-child(7) {
@@ -255,16 +259,21 @@
   .product__wrap {
     display: flex;
     flex-direction: column;
+    margin-bottom: 39px;
+  }
+
+  .product__wrap picture {
+    width: 324px;
+    margin-bottom: 19px;
   }
 
   .product__box {
-    margin-top: 20px;
-    margin-left: 90px;
+    width: 324px;
   }
 
-  .product__image,
   .product__box,
-  .product__title {
+  .product__title,
+  .product__table {
     margin: 0 auto;
   }
 
@@ -273,8 +282,11 @@
     line-height: 20px;
     width: 130px;
     text-align: center;
-    margin-top: 20px;
-    margin-left: 31px;
+    margin-bottom: 22px;
+  }
+
+  .product__image {
+    margin-bottom: 0;
   }
 
   .product__table {
@@ -282,13 +294,11 @@
     line-height: 16px;
     width: 250px;
     display: flex;
-    margin-top: 21px;
-    margin-left: 52px;
   }
 
   .product__table tbody {
     width: 250px;
-    margin-left: -82px;
+    margin: 0;
   }
 
   .product__table tr:nth-child(1),
@@ -307,12 +317,17 @@
     }
   }
 
+  .product__table tr:nth-child(1) {
+    margin-bottom: 15px;
+  }
+
   .product__table tr:nth-child(2) {
-    margin-top: 15px;
+    margin-top: 0;
+    margin-bottom: 15px;
   }
 
   .product__table tr:nth-child(3) {
-    margin-top: 15px;
+    margin-top: 0;
   }
 
   .product__more {
@@ -361,7 +376,6 @@
   .product__button {
     width: 249px;
     margin: 0 auto;
-    margin-top: 40px;
   }
 
   .product__button-more {
@@ -395,6 +409,14 @@
     background-color: $gray;
   }
 
+  .product__wrap {
+    width: 245px;
+  }
+
+  .product__wrap picture {
+    width: 245px;
+  }
+
   .product:nth-child(1),
   .product:nth-child(2),
   .product:nth-child(3),
@@ -420,12 +442,16 @@
   }
 
   .product__image {
-    margin-left: -35px;
+    margin-left: 0;
+  }
+
+  .product__box {
+    width: 245px;
   }
 
   .product__title {
-    margin-left: -10px;
-    margin-bottom: 21px;
+    margin: 0 auto;
+    margin-bottom: 22px;
   }
 
   .product:nth-child(1),
@@ -434,13 +460,12 @@
   }
 
   .product__table {
-    margin-top: 0;
-    margin-bottom: 40px;
-    width: 100px;
+    margin: 0 auto;
+    width: 170px;
   }
 
   .product__table tbody {
-    width: 171px;
+    width: 170px;
   }
 
   .product__table tr:nth-child(1),

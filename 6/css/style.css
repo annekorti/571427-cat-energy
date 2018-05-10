@@ -885,7 +885,7 @@ input[type="radio"].visually-hidden {
 .choice__block {
   background-color: #f2f2f2;
   width: 280px;
-  height: 266px;
+  min-height: 266px;
   margin: 0 auto;
   text-align: left; }
 
@@ -942,7 +942,16 @@ input[type="radio"].visually-hidden {
   padding: 0;
   margin: 0;
   margin-left: 20px;
-  margin-bottom: 31px; }
+  margin-bottom: 31px;
+  position: relative; }
+  .choice__text::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 240px;
+    height: 1px;
+    background-color: #d9d9d9;
+    bottom: -22px; }
 
 .choice__link {
   font-size: 16px;
@@ -1070,6 +1079,8 @@ input[type="radio"].visually-hidden {
     margin-top: 0;
     margin-bottom: 24px;
     width: 470px; }
+    .choice__text::after {
+      display: none; }
   .choice__block:nth-child(2) .choice__text {
     width: 445px; }
   .choice__link {
@@ -1460,7 +1471,8 @@ input[type="radio"].visually-hidden {
   font-size: 24px;
   line-height: 24px;
   margin: 0 0 0 20px;
-  position: relative; }
+  position: relative;
+  margin-bottom: 32px; }
   .extra-product__title::after {
     display: block;
     position: absolute;
@@ -1474,7 +1486,12 @@ input[type="radio"].visually-hidden {
 .extra-product__block {
   width: 280px;
   margin: 0 auto;
-  min-height: 128px; }
+  min-height: 115px;
+  border-top: 1px solid #d9d9d9;
+  padding-top: 13px; }
+
+.extra-product__block:nth-child(4) {
+  border-bottom: 1px solid #d9d9d9; }
 
 .extra-product__subtitle {
   font-size: 16px;
@@ -1491,8 +1508,8 @@ input[type="radio"].visually-hidden {
   min-width: 242px; }
 
 .extra-product__column {
-  margin-bottom: 29px;
-  margin-top: 49px; }
+  margin-bottom: 39px;
+  margin-top: 0; }
 
 .extra-product__box {
   display: -webkit-box;
@@ -1537,7 +1554,8 @@ input[type="radio"].visually-hidden {
     width: 706px;
     min-height: 118px;
     border: 1px solid #e6e6e6;
-    padding-bottom: 20px; }
+    padding-bottom: 20px;
+    padding-top: 0; }
   .extra-product__wrap {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1718,14 +1736,20 @@ input[type="radio"].visually-hidden {
   margin-bottom: 40px; }
 
 .form__wrapper {
-  margin-bottom: 56px; }
+  margin-bottom: 29px; }
 
 .form__block:nth-child(1) {
-  margin-bottom: 50px; }
+  margin-bottom: 21px; }
 
 .form__list,
 .form__block:nth-child(2) {
   margin-top: 0; }
+
+.form__block:nth-child(2) {
+  border-top: 1px solid #d9d9d9;
+  padding-top: 27px;
+  border-bottom: 1px solid #d9d9d9;
+  padding-bottom: 3px; }
 
 .form__block:nth-child(4) {
   margin-top: 0;
@@ -1962,7 +1986,8 @@ input[type="radio"].visually-hidden {
     border: 1px solid #e6e6e6;
     width: 628px;
     height: 194px;
-    margin-top: 0; }
+    margin-top: 0;
+    padding: 0; }
   .form__block:nth-child(1) .form__item:nth-child(2),
   .form__block:nth-child(1) .form__item:nth-child(3) {
     margin-top: 0; }
@@ -2694,7 +2719,7 @@ input[type="radio"].visually-hidden {
     display: block;
     position: absolute;
     left: -20px;
-    top: 174px; }
+    top: 182px; }
 
 .product__plus {
   padding: 0;
@@ -2723,7 +2748,8 @@ input[type="radio"].visually-hidden {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap; }
+        flex-wrap: wrap;
+    margin-bottom: 66px; }
     .product-group::before {
       display: none; }
     .product-group::after {
@@ -2809,6 +2835,20 @@ input[type="radio"].visually-hidden {
   .product__table tbody {
     width: 250px;
     margin-left: -82px; }
+  .product__table tr:nth-child(1),
+  .product__table tr:nth-child(2),
+  .product__table tr:nth-child(3) {
+    position: relative; }
+    .product__table tr:nth-child(1)::after,
+    .product__table tr:nth-child(2)::after,
+    .product__table tr:nth-child(3)::after {
+      content: "";
+      display: block;
+      height: 1px;
+      width: 250px;
+      background-color: #d9d9d9;
+      position: absolute;
+      top: 25px; }
   .product__table tr:nth-child(2) {
     margin-top: 15px; }
   .product__table tr:nth-child(3) {
@@ -2903,6 +2943,10 @@ input[type="radio"].visually-hidden {
     width: 100px; }
   .product__table tbody {
     width: 171px; }
+  .product__table tr:nth-child(1)::after,
+  .product__table tr:nth-child(2)::after,
+  .product__table tr:nth-child(3)::after {
+    width: 169px; }
   .product__button {
     margin: 0 auto;
     width: 169px;

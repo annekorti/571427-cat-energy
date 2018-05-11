@@ -751,6 +751,17 @@
     margin-right: 35px;
   }
 
+  .form__item-radio,
+  .form__item-checkbox {
+    &:hover {
+      opacity: 0.8;
+    }
+
+    &:active {
+      opacity: 0.6;
+    }
+  }
+
   .form__wrap {
     margin-top: 0;
   }

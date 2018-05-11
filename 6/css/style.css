@@ -2422,16 +2422,6 @@ input[type="radio"].visually-hidden {
   background-repeat: no-repeat;
   height: 362px;
   position: relative; }
-  .map::after {
-    background-image: url("../img/map-pin.png");
-    content: "";
-    position: absolute;
-    width: 62px;
-    height: 53px;
-    background-repeat: no-repeat;
-    background-size: 62px 53px;
-    top: 138px;
-    left: 129px; }
   @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
     .map {
       background-image: url("../img/bg-map-mobile_2x.png"); } }
@@ -2443,12 +2433,9 @@ input[type="radio"].visually-hidden {
     background-position: top center;
     background-repeat: no-repeat;
     background-size: 767px 400px; }
-    .map::after {
-      width: 124px;
-      height: 106px;
-      background-size: 124px 106px;
-      left: 322px;
-      top: 145px; } }
+    .map .map__iframe {
+      width: 768px;
+      height: 400px; } }
   @media (min-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 768px) and (min-resolution: 144dpi), (min-width: 768px) and (min-resolution: 1.5dppx) {
     .map {
       background-image: url("../img/bg-map-tablet@2x.png"); } }
@@ -2460,9 +2447,8 @@ input[type="radio"].visually-hidden {
     height: 400px;
     background-image: url("../img/bg-map-desktop@1x.png");
     background-size: 1300px 400px; }
-    .map::after {
-      top: 149px;
-      left: 897px; } }
+    .map .map__iframe {
+      width: 1300px; } }
   @media (min-width: 1300px) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 1300px) and (min-resolution: 144dpi), (min-width: 1300px) and (min-resolution: 1.5dppx) {
     .map {
       background-image: url("../img/bg-map-desktop@2x.png"); } }

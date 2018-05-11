@@ -2282,6 +2282,12 @@ input[type="radio"].visually-hidden {
   .form__block:nth-child(6) .form__item-checkbox:nth-child(3) {
     margin: 0;
     margin-right: 35px; }
+  .form__item-radio:hover,
+  .form__item-checkbox:hover {
+    opacity: 0.8; }
+  .form__item-radio:active,
+  .form__item-checkbox:active {
+    opacity: 0.6; }
   .form__wrap {
     margin-top: 0; }
   .form__button {

@@ -2852,7 +2852,7 @@ input[type="radio"].visually-hidden {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin-bottom: 39px; }
+    margin-bottom: 24px; }
   .product__wrap picture {
     width: 324px;
     margin-bottom: 19px; }
@@ -2880,27 +2880,11 @@ input[type="radio"].visually-hidden {
   .product__table tbody {
     width: 250px;
     margin: 0; }
-  .product__table tr:nth-child(1),
-  .product__table tr:nth-child(2),
-  .product__table tr:nth-child(3) {
-    position: relative; }
-    .product__table tr:nth-child(1)::after,
-    .product__table tr:nth-child(2)::after,
-    .product__table tr:nth-child(3)::after {
-      content: "";
-      display: block;
-      height: 1px;
-      width: 250px;
-      background-color: #d9d9d9;
-      position: absolute;
-      top: 25px; }
-  .product__table tr:nth-child(1) {
-    margin-bottom: 15px; }
-  .product__table tr:nth-child(2) {
-    margin-top: 0;
-    margin-bottom: 15px; }
-  .product__table tr:nth-child(3) {
-    margin-top: 0; }
+  .product__table tr {
+    position: relative;
+    border-bottom: 1px solid #d9d9d9;
+    padding-bottom: 7px;
+    margin-bottom: 7px; }
   .product__more {
     border: 1px solid #e6e6e6;
     width: 322px;

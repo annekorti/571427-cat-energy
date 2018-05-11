@@ -8,14 +8,6 @@
   margin-bottom: 29px;
   position: relative;
 
-  &:hover {
-    opacity: 0.8;
-  }
-
-  &:active {
-    opacity: 0.6;
-  }
-
   &::after {
     content: "";
     width: 280px;
@@ -105,6 +97,16 @@
 @media (min-width: $desktop-width) {
   .page-footer {
     position: relative;
+  }
+
+  .page-footer__cat-energy {
+    &:hover {
+      opacity: 0.7;
+    }
+
+    &:active {
+      opacity: 0.5;
+    }
   }
 
   .page-footer__wrap {

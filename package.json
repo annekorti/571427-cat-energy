@@ -36,8 +36,5 @@
   ],
   "engines": {
     "node": "8.11"
-  },
-  "dependencies": {
-    "npm": "^6.0.0"
   }
 }

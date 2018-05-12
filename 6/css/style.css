@@ -318,7 +318,6 @@ body {
   margin: 0 auto;
   padding: 0;
   font-family: "Oswald", "Arial", sans-serif;
-  width: 320px;
   text-align: center;
   background-color: #ffffff; }
 
@@ -340,13 +339,9 @@ input[type="radio"].visually-hidden {
   clip: rect(0 0 0 0);
   overflow: hidden; }
 
-@media (min-width: 768px) {
-  body {
-    min-width: 768px; } }
-
 @media (min-width: 1300px) {
   body {
-    min-width: 1300px; } }
+    max-width: 1300px; } }
 
 .button {
   border: none;
@@ -1422,7 +1417,7 @@ input[type="radio"].visually-hidden {
   .example__wrapper {
     min-height: 596px; }
   .example__wrapping {
-    width: 720px;
+    width: auto;
     padding-left: 40px;
     margin-bottom: 0; }
   .example__subtitle {
@@ -1432,7 +1427,7 @@ input[type="radio"].visually-hidden {
       top: 70px;
       background-color: #f2f2f2; }
   .example__envelope {
-    width: 1300px;
+    width: auto;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1478,14 +1473,14 @@ input[type="radio"].visually-hidden {
     margin-right: 48px; }
   .example__slider {
     margin: 0;
-    width: 780px; }
+    width: auto; }
   .example__slider-wrap {
     margin-left: 57px; }
   .example__image-wrap img {
-    left: -35px;
+    left: 114px;
     top: -187px; }
   .example__slider-text {
-    margin-left: -12px;
+    margin-left: 97px;
     margin-top: 355px;
     margin-bottom: 0;
     padding-bottom: 0;
@@ -2188,7 +2183,8 @@ input[type="radio"].visually-hidden {
 
 @media (min-width: 1300px) {
   .form {
-    margin-bottom: 59px; }
+    margin-bottom: 59px;
+    width: auto; }
   .form__title,
   .form__text {
     margin-left: 110px; }
@@ -2404,13 +2400,13 @@ input[type="radio"].visually-hidden {
 
 @media (min-width: 768px) {
   .map {
-    height: 400px;
+    height: auto;
     background-image: url("../img/bg-map-tablet@1x.png");
     background-position: top center;
     background-repeat: no-repeat;
     background-size: 767px 400px; }
     .map .map__iframe {
-      width: 768px;
+      width: 100%;
       height: 400px; } }
   @media (min-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 768px) and (min-resolution: 144dpi), (min-width: 768px) and (min-resolution: 1.5dppx) {
     .map {
@@ -2419,12 +2415,10 @@ input[type="radio"].visually-hidden {
 @media (min-width: 1300px) {
   .map {
     right: 0;
-    width: 1300px;
+    width: auto;
     height: 400px;
     background-image: url("../img/bg-map-desktop@1x.png");
-    background-size: 1300px 400px; }
-    .map .map__iframe {
-      width: 1300px; } }
+    background-size: 1300px 400px; } }
   @media (min-width: 1300px) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 1300px) and (min-resolution: 144dpi), (min-width: 1300px) and (min-resolution: 1.5dppx) {
     .map {
       background-image: url("../img/bg-map-desktop@2x.png"); } }

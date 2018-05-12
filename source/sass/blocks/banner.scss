@@ -6,9 +6,13 @@
   //background-position: top center;
   //background-repeat: no-repeat;
   height: 305px;
-  color: #ffffff;
+  color: $white;
   //margin-bottom: 197px;
   position: relative;
+
+  @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+    background-image: url("../img/index-background-mobile@2x.jpg");
+  }
 }
 
 .banner__title {
@@ -37,6 +41,10 @@
   height: 271px;
   //background-position: center;
   margin: 0;
+
+  @media (min-resolution: $retina-dppx), (min-resolution: $retina-dpi) {
+    background-image: url("../img/index-can-mobile@2x.png");
+  }
 }
 
 .banner__button {
@@ -51,7 +59,7 @@
 @media (min-width: $tablet-width) {
   .banner {
     background: none;
-    background-color: #ffffff;
+    background-color: $white;
     min-height: 809px;
     margin-bottom: 40px;
     position: relative;
@@ -64,16 +72,17 @@
     margin-left: 117px;
     text-align: left;
     padding-top: 41px;
-    color: #000000;
+    color: $black;
+    margin-bottom: 40px;
   }
 
   .banner__text {
     font-size: 20px;
     line-height: 20px;
     text-align: left;
-    padding-top: 21px;
+    padding: 0;
     margin-left: 118px;
-    color: #000000;
+    color: $black;
   }
 
   .banner__button {
@@ -88,35 +97,81 @@
     position: absolute;
     top: 269px;
   }
+
+  .banner__image {
+    background-image: url("../img/index-can-tablet@1x.jpg");
+    background-size: 709px 609px;
+    height: 609px;
+    margin-top: -10px;
+
+    @media (min-resolution: $retina-dppx), (min-resolution: $retina-dpi) {
+      background-image: url("../img/index-can-tablet@2x.jpg");
+    }
+  }
 }
 
 @media (min-width: $desktop-width) {
   .banner {
-    width: 420px;
     position: relative;
     background: none;
-    margin-left: 190px;
+    margin-left: 120px;
     text-align: left;
     min-height: 500px;
+    margin-bottom: 108px;
+  }
+
+  .banner_wrapper {
+    display: flex;
+    position: relative;
   }
 
   .banner__title,
   .banner__text {
-    color: #000000;
+    color: $black;
   }
 
   .banner__title {
     margin: 0;
-    margin-top: 14px;
+    margin-top: 55px;
+    margin-bottom: 40px;
+    padding: 0;
+  }
+
+  .banner__envelope {
+    background-image: url("../img/index-background-desktop@_1x.jpg");
+    background-size: 650px 696px;
+    position: absolute;
+    right: 0;
+    top: -168px;
+    width: 650px;
+    height: 696px;
+
+    @media (min-resolution: $retina-dppx), (min-resolution: $retina-dpi) {
+      background-image: url("../img/index-background-desktop@_2x.jpg");
+    }
+  }
+
+  .banner__image {
+    background-image: url("../img/index-can-desktop@1x.png");
+    width: 552px;
+    height: 499px;
+    background-size: 552px 499px;
+    position: absolute;
+    margin: 0;
+    left: -160px;
+    top: 142px;
+
+    @media (min-resolution: $retina-dppx), (min-resolution: $retina-dpi) {
+      background-image: url("../img/index-can-desktop@2x.png");
+    }
   }
 
   .banner__text {
     margin: 0;
-    margin-top: 18px;
   }
 
   .banner__button {
     margin: 0;
-    top: 274px;
+    top: 288px;
   }
 }

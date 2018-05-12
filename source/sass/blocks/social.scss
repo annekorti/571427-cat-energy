@@ -1,42 +1,116 @@
 .social {
-  height: 62px;
-  display: flex;
-  justify-content: center;
+  padding-top: 23px;
+  padding-bottom: 0;
 }
 
 .social__list {
-  padding: 0;
-  width: 125px;
-  list-style: none;
   display: flex;
-  justify-content: space-between;
-  margin: 0;
   align-items: center;
+  padding-left: 92px;
+  list-style: none;
+  margin-top: 0;
 }
 
-//.social__link:nth-child(1) {
-//  background-image: url("../../img/icon-vk-mobile.svg");
-//  background-repeat: no-repeat;
-//  background-size: 22px 12px;
-//  background-position: center;
-//  height: 22px;
-//  width: 12px;
-//}
-//
-//.social__link:nth-child(2) {
-//  background-image: url("../../img/icon-insta-mobile.svg");
-//  background-repeat: no-repeat;
-//  background-size: 22px 12px;
-//  background-position: center;
-//  height: 22px;
-//  width: 12px;
-//}
-//
-//.social__link:nth-child(3) {
-//  background-image: url("../../img/icon-fb-mobile.svg");
-//  background-repeat: no-repeat;
-//  background-size: 22px 12px;
-//  background-position: center;
-//  height: 22px;
-//  width: 12px;
-//}
+.social__item {
+  margin-right: 38px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.social__link {
+  display: block;
+
+  &--vk {
+    width: 22px;
+    height: 17px;
+
+    //background-image: url("../img/icon-vk-mobile.svg");
+    //background-repeat: no-repeat;
+    //background-position: 0 0;
+  }
+
+  &--insta {
+    width: 16px;
+    height: 16px;
+
+    //background-image: url("../img/icon-insta-mobile.svg");
+    //background-repeat: no-repeat;
+    //background-position: 0 0;
+  }
+
+  &--fb {
+    width: 10px;
+    height: 19px;
+
+    //background-image: url("../img/icon-fb-mobile.svg");
+    //background-repeat: no-repeat;
+    //background-position: 0 0;
+  }
+}
+
+.social__link .social__icon {
+  fill: #666666;
+}
+
+@media (min-width: $tablet-width) {
+  .social {
+    padding: 0;
+
+    border: none;
+  }
+
+  .social__list {
+    padding-left: 0;
+    margin-top: 5px;
+  }
+
+  .social__item {
+    margin-right: 28px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  .social__link {
+    display: block;
+
+    &--vk {
+      width: 30px;
+      height: 16px;
+    }
+
+    &--insta {
+      width: 23px;
+      height: 23px;
+    }
+
+    &--fb {
+      width: 14px;
+      height: 28px;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .social {
+    margin-left: 0;
+    padding-top: 5px;
+  }
+
+  .social__list {
+    margin-right: 0;
+  }
+
+  .social__link:hover .social__icon,
+  .social__link:focus .social__icon {
+    fill: #68b738;
+  }
+
+  .social__link:active .social__icon {
+    opacity: 0.6;
+    fill: #68b738;
+  }
+}

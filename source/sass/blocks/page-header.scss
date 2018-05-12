@@ -9,6 +9,7 @@
 
 .page-header__logo-image {
   margin: 0;
+  width: 191px;
 }
 
 @media (min-width: $tablet-width) {
@@ -17,9 +18,13 @@
     display: flex;
     justify-content: flex-start;
     min-height: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
   }
 
   .page-header__logo {
+    margin-left: 0;
+    margin-top: 8px;
     align-self: center;
   }
 
@@ -32,6 +37,26 @@
 @media (min-width: $desktop-width) {
   .page-header {
     justify-content: space-between;
-    margin: 0 110px;
+    margin: 0 40px;
+    position: relative;
+    z-index: 3;
+  }
+
+  .page-header__logo {
+    width: 210px;
+    margin: 0;
+
+    &:hover {
+      opacity: 0.8;
+    }
+
+    &:active {
+      opacity: 0.6;
+    }
+  }
+
+  .page-header__logo-image {
+    width: 202px;
+    height: 59px;
   }
 }

@@ -3,5 +3,64 @@
 }
 
 .contacts__link {
-  padding-right: 13px;
+  display: flex;
+  justify-content: space-between;
+  width: 280px;
+}
+
+.contacts__text {
+  margin: 0;
+  align-self: center;
+  color: #000000;
+}
+
+.contacts__link svg {
+  width: 32px;
+  fill: #666666;
+}
+
+@media (min-width: $tablet-width) {
+  .contacts {
+    width: auto;
+    margin: 0;
+    margin-right: -8px;
+  }
+
+  .contacts__link {
+    width: 171px;
+  }
+
+  .contacts__text {
+    margin: 0;
+    margin-right: 16px;
+    width: 115px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .contacts {
+    padding-top: 5px;
+    padding-bottom: 0;
+
+    &:active {
+      opacity: 0.5;
+    }
+  }
+
+  .contacts__text {
+    width: 115px;
+  }
+
+  .contacts__link svg {
+    width: 36px;
+  }
+
+  .contacts__link:hover .contacts__image,
+  .contacts__link:focus .contacts__image {
+    fill: #68b738;
+  }
+
+  .contacts__link:active .contacts__image {
+    opacity: 0.6;
+  }
 }

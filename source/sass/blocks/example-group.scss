@@ -360,7 +360,7 @@
   }
 
   .example__wrapping {
-    width: 720px;
+    width: auto;
     padding-left: 40px;
     margin-bottom: 0;
   }
@@ -376,7 +376,7 @@
   }
 
   .example__envelope {
-    width: 1300px;
+    width: auto;
     display: flex;
     background-color: $gray;
     margin-top: 72px;
@@ -433,7 +433,7 @@
 
   .example__slider {
     margin: 0;
-    width: 780px;
+    width: auto;
   }
 
   .example__slider-wrap {
@@ -441,12 +441,12 @@
   }
 
   .example__image-wrap img {
-    left: -35px;
+    left: 114px;
     top: -187px;
   }
 
   .example__slider-text {
-    margin-left: -12px;
+    margin-left: 97px;
     margin-top: 355px;
     margin-bottom: 0;
     padding-bottom: 0;

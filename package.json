@@ -36,5 +36,8 @@
   ],
   "engines": {
     "node": "8.11"
+  },
+  "dependencies": {
+    "run-sequence": "^2.2.1"
   }
 }

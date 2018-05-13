@@ -267,8 +267,8 @@
 
   .example__image-wrap img {
     position: absolute;
-    top: -171px;
-    left: 46px;
+    margin-left: 45px;
+    margin-top: -168px;
   }
 
   .example__slider-text {
@@ -433,7 +433,7 @@
 
   .example__slider {
     margin: 0;
-    width: auto;
+    width: 821px;
   }
 
   .example__slider-wrap {
@@ -441,24 +441,25 @@
   }
 
   .example__image-wrap img {
-    left: 114px;
-    top: -187px;
+    position: static;
+    margin-left: 117px;
+    margin-top: -168px;
   }
 
   .example__slider-text {
     margin-left: 97px;
-    margin-top: 355px;
+    margin-top: 0;
     margin-bottom: 0;
     padding-bottom: 0;
     height: 25px;
   }
 
   .example__slider-block {
-    margin-top: 362px;
+    margin-top: 8px;
     margin-right: 22px;
   }
 
   .example__slider-text:nth-child(3) {
-    margin-top: 355px;
+    margin-top: 0;
   }
 }

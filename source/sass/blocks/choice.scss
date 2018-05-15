@@ -22,11 +22,11 @@
   margin-bottom: 20px;
 }
 
-.choice__cat--slim {
+.choice__image--cat-slim {
   height: 49px;
 }
 
-.choice__cat--pro {
+.choice__image--cat-pro {
   height: 28px;
 }
 
@@ -251,5 +251,9 @@
 
   .choice__link {
     padding: 0;
+
+    &:active {
+      opacity: 0.6;
+    }
   }
 }

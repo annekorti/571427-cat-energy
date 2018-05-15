@@ -3,9 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <title>HTML Academy: Кэт энерджи</title>
-  <link href="css/style.css" rel="stylesheet">
+  <link href="css/style.min.css" rel="stylesheet">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="preload" href="fonts/oswaldmedium.woff2" as="font">
+  <link rel="preload" href="fonts/oswaldregular.woff2" as="font">
+  <script async src="js/picturefill.min.js"></script>
 </head>
 <body>
 
@@ -75,28 +78,24 @@
   <section class="choice">
     <div class="choice__block">
       <div class="choice__wrap">
-        <div class="choice__image choice__cat--slim">
+        <div class="choice__image choice__image--cat-slim">
           <img class="choice__cat" src="img/icon-cat-slim.svg" width="35" height="49" alt="Похудение">
         </div>
         <h2 class="choice__title title">Похудение</h2>
       </div>
       <p class="choice__text">Ваш кот весит больше собаки и почти утратил способность лазить по деревьям? Пора на диету! Cat Energy Slim поможет вашему питомцу сбросить лишний вес.</p>
-      <a class="choice__link" href="#">Каталог SLIM <span class="choice__arrow">
-      </span>
-      </a>
+      <a class="choice__link" href="#">Каталог SLIM <span class="choice__arrow"></span></a>
     </div>
     <div class="choice__block">
       <div class="choice__wrap">
-        <div class="choice__image choice__cat--pro">
+        <div class="choice__image choice__image--cat-pro">
           <img class="choice__cat" src="img/icon-cat-pro.svg" width="67" height="28" alt="Похудение">
         </div>
         <h2 class="choice__title title">Набор массы</h2>
       </div>
       <p class="choice__text">Заработать авторитет среди дворовых котов и даже собак? Серия Cat Energy Pro поможет
         вашему коту нарастить необходимые мышцы!</p>
-      <a class="choice__link" href="#">Каталог PRO <span class="choice__arrow">
-      </span>
-      </a>
+      <a class="choice__link" href="#">Каталог PRO <span class="choice__arrow"></span></a>
     </div>
   </section>
   <section class="about">
@@ -192,7 +191,7 @@
       <ul class="social__list">
         <li class="social__item">
           <a class="social__link social__link--vk" href="https://vk.com/htmlacademy">
-            <svg class="social__icon social__link--vk" width="22" height="17">
+            <svg class="social__icon social__icon--vk" width="22" height="17">
               <use xlink:href="#icon-vk"></use>
             </svg>
             <span class="visually-hidden">ВКонтакте</span>
@@ -200,14 +199,14 @@
         </li>
         <li class="social__item">
           <a class="social__link social__link--insta" href="https://www.instagram.com/htmlacademy/">
-            <svg class="social__icon social__link--insta" width="16" height="16">
+            <svg class="social__icon social__icon--insta" width="16" height="16">
               <use xlink:href="#icon-insta"></use>
             </svg>
             <span class="visually-hidden">InstaGram</span></a>
         </li>
         <li class="social__item">
           <a class="social__link social__link--fb" href="https://www.facebook.com/htmlacademy/">
-            <svg class="social__icon social__link--fb" width="10" height="19">
+            <svg class="social__icon social__icon--fb" width="10" height="19">
               <use xlink:href="#icon-fb"></use>
             </svg>
             <span class="visually-hidden">FaceBook</span>

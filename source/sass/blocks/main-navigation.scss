@@ -145,9 +145,13 @@
     padding: 0;
     line-height: 29px;
     margin-top: 54px;
-    padding-bottom: 49px;
     width: auto;
     height: auto;
+  }
+
+  .main-navigation__list--wrap {
+    width: 485px;
+    flex-wrap: wrap;
   }
 
   .main-navigation__item {

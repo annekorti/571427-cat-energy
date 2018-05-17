@@ -46,9 +46,30 @@
     z-index: 3;
   }
 
+  .page-header--index-image {
+    align-items: flex-start;
+
+    &::before {
+      content: "";
+      background-image: url("../img/index-background-desktop@_1x.jpg");
+      background-size: 650px 696px;
+      position: absolute;
+      right: -40px;
+      top: 0;
+      width: 650px;
+      height: 696px;
+
+      @media (min-resolution: $retina-dppx), (min-resolution: $retina-dpi) {
+        background-image: url("../img/index-background-desktop@_2x.jpg");
+      }
+    }
+  }
+
   .page-header__logo {
     width: 210px;
     margin: 0;
+    margin-top: 50px;
+    align-self: flex-start;
 
     &:hover {
       opacity: 0.8;

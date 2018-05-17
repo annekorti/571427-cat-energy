@@ -16,8 +16,12 @@
 }
 
 @media (min-width: $desktop-width) {
+  .page-catalog {
+    margin-top: 71px;
+  }
+
   .page-catalog__tagline {
-    margin-top: 22px;
+    margin-top: 0;
     margin-left: 40px;
     margin-bottom: 163px;
   }

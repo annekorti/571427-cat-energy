@@ -112,6 +112,7 @@
     text-align: left;
     min-height: 500px;
     margin-bottom: 108px;
+    margin-top: 49px;
   }
 
   .banner_wrapper {
@@ -131,20 +132,6 @@
     padding: 0;
   }
 
-  .banner__envelope {
-    background-image: url("../img/index-background-desktop@_1x.jpg");
-    background-size: 650px 696px;
-    position: absolute;
-    right: 0;
-    top: -168px;
-    width: 650px;
-    height: 696px;
-
-    @media (min-resolution: $retina-dppx), (min-resolution: $retina-dpi) {
-      background-image: url("../img/index-background-desktop@_2x.jpg");
-    }
-  }
-
   .banner__image {
     background-image: url("../img/index-can-desktop@1x.png");
     width: 552px;
@@ -152,8 +139,9 @@
     background-size: 552px 499px;
     position: absolute;
     margin: 0;
-    left: -160px;
-    top: 142px;
+    left: 370px;
+    top: -26px;
+    z-index: 3;
 
     @media (min-resolution: $retina-dppx), (min-resolution: $retina-dpi) {
       background-image: url("../img/index-can-desktop@2x.png");

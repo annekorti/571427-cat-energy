@@ -69,7 +69,7 @@
     width: 240px;
     height: 1px;
     background-color: #d9d9d9;
-    bottom: -22px;
+    bottom: -23px;
   }
 }
 
@@ -152,6 +152,10 @@
     text-align: left;
     margin-top: 0;
     margin-bottom: 48px;
+
+    &::after {
+      bottom: -24px;
+    }
   }
 
   .choice__block:nth-child(2) .choice__text {
